@@ -1,0 +1,99 @@
+{
+  "structure": {
+    "nodes": 35,
+    "edges": 78,
+    "loops": 10,
+    "renderedEdges": 78,
+    "renderedNodes": 35,
+    "loopChecks": [
+      {
+        "id": "R1",
+        "closed": true,
+        "computedType": "R",
+        "declaredType": "R"
+      },
+      {
+        "id": "R2",
+        "closed": true,
+        "computedType": "R",
+        "declaredType": "R"
+      },
+      {
+        "id": "R3",
+        "closed": true,
+        "computedType": "R",
+        "declaredType": "R"
+      },
+      {
+        "id": "R4",
+        "closed": true,
+        "computedType": "R",
+        "declaredType": "R"
+      },
+      {
+        "id": "R5",
+        "closed": true,
+        "computedType": "R",
+        "declaredType": "R"
+      },
+      {
+        "id": "B1",
+        "closed": true,
+        "computedType": "B",
+        "declaredType": "B"
+      },
+      {
+        "id": "B2",
+        "closed": true,
+        "computedType": "B",
+        "declaredType": "B"
+      },
+      {
+        "id": "B3",
+        "closed": true,
+        "computedType": "B",
+        "declaredType": "B"
+      },
+      {
+        "id": "B4",
+        "closed": true,
+        "computedType": "B",
+        "declaredType": "B"
+      },
+      {
+        "id": "B5",
+        "closed": true,
+        "computedType": "B",
+        "declaredType": "B"
+      }
+    ],
+    "missingAnchors": [],
+    "missingEndpoints": []
+  },
+  "clicks": {
+    "arrows": 78,
+    "arrowFailures": [],
+    "loops": 10,
+    "loopFailures": []
+  },
+  "sources": 6,
+  "search": {
+    "count": 1,
+    "selected": true
+  },
+  "desktop": {
+    "width": 1680,
+    "scrollWidth": 1665,
+    "svgEdges": 78,
+    "foreignChars": false
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "graphHeight": 407,
+    "inspectorHeight": 1364.375
+  },
+  "offlineFileLoad": true,
+  "foregroundPointerHit": true,
+  "runtimeExceptions": []
+}

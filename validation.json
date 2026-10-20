@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "variables": 35,
+  "signedLinks": 78,
+  "highlightedLoops": 10,
+  "reinforcing": 5,
+  "balancing": 5,
+  "literatureSources": 6,
+  "evidenceAnchors": 34,
+  "checks": [
+    "35 unique variables",
+    "Every link has a sign and evidence anchor",
+    "All six corrected sources cited",
+    "All named loops are closed directed simple cycles",
+    "All loop types match sign-product parity",
+    "No duplicate directed links or disconnected variables",
+    "Node bounding boxes separated",
+    "Conditional response and indicator assumptions retained"
+  ],
+  "limits": "Structural validation only; this does not validate causal effects or loop dominance."
+}

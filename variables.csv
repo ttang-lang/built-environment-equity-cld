@@ -1,0 +1,36 @@
+﻿id,label,group,definition,domains
+V01,Household financial resources,governance,Income and material resources available to priority-group households before housing and energy costs. Distinct from neighborhood-average wealth.,Shelter | Access
+V02,Resident decision-making influence,governance,"Neighborhood-level effective collective influence over planning, budgets and housing decisions. Influence can favor affluent newcomers; a neighborhood gain is not automatically greater voice for original priority residents.",Access | Safety | Shelter
+V03,Local public investment,governance,"Realized public spending on the focal neighborhood's housing, infrastructure and services. Its equity effect depends on allocation and resident retention.",Access | Mobility | Shelter
+V04,Equity policy response,governance,"Implemented response to monitored inequities, including resourcing and enforcement. An explicitly conditional institutional response, not an automatic reaction.",Well-being | Access | Mobility | Shelter | Safety
+V05,Affordable housing protection,governance,"Effective provision and preservation of affordable secure homes, tenant protections and anti-displacement measures for priority residents.",Shelter
+V35,Neighborhood socioeconomic resources,governance,"Average resources of the resident population; changes may reflect who can afford to enter or remain. A compositional variable, not incumbent household income.",Access | Shelter
+V06,Healthy housing quality,housing,"Priority residents' access to homes with adequate ventilation, moisture control, thermal comfort and safe materials; energy performance is separately represented.",Shelter | Well-being | Safety
+V07,Housing energy efficiency,housing,"Energy performance of priority households' homes, with adequate ventilation and comfort maintained; implementation costs are not assumed away.",Shelter | Well-being
+V09,Energy cost burden,housing,"Required household energy expenditure relative to resources, excluding rent or mortgage payments; higher means greater financial strain.",Shelter | Well-being
+V08,Housing cost burden,housing,Rent or mortgage and mandatory tenure costs relative to priority household resources; excludes the separately modeled household energy burden.,Shelter | Access
+V12,Local housing costs,housing,Local rents and purchase prices faced by entrants and renewing residents; price increases do not imply existing residents become wealthier.,Shelter
+V13,Gentrification pressure,housing,"Market-led neighborhood upgrading and socioeconomic replacement pressure. Effects depend on tenure, timing, safeguards and local institutions.",Shelter | Access
+V10,Housing insecurity,housing,"Priority residents' uncertainty about retaining an adequate, affordable home; includes threatened loss and unstable tenure.",Shelter | Well-being
+V11,Involuntary displacement,housing,Forced or financially compelled residential moves among original priority residents; distinct from all residential mobility or cultural change alone.,Shelter | Access | Well-being
+V18,Walkable land-use mix,mobility,Connected proximity of everyday destinations and complementary uses. Density alone is deliberately not treated as uniformly beneficial.,Access | Mobility
+V16,Inclusive public transport access,mobility,"Affordable, physically accessible, reliable public transport that meets priority groups' destinations and travel needs; distance to a stop alone is insufficient.",Access | Mobility
+V17,Safe walking and cycling infrastructure,mobility,"Usable routes, safe crossings, separation and speed management, adapted to age, disability and other access needs.",Mobility | Safety
+V21,Active travel and physical activity,mobility,"Walking, cycling and other physical activity among priority residents; benefits depend on access, safety and exposure conditions.",Mobility | Well-being
+V19,Car-dependent travel,mobility,Reliance on private motorized travel for everyday needs; changing this requires viable alternatives rather than simply restricting mobility.,Mobility | Access
+V20,Motor traffic volume,mobility,"Motor-vehicle traffic in places used by priority residents, with background fleet, road design and speeds held in context.",Mobility | Safety
+V14,Green and public-space quality,place,"Maintained, welcoming and effectively accessible shared green/public spaces for priority residents, rather than green acreage alone.",Access | Well-being | Safety
+V15,Effective local service access,place,"Ability to use affordable, appropriate local services, including healthcare, healthy food and community amenities; includes financial and physical accessibility.",Access | Well-being
+V28,Social cohesion,place,"Inclusive trust, support and collective capacity among original priority residents; exclusionary bonding is not counted as an equity benefit.",Well-being | Safety
+V26,Neighborhood disorder,place,"Neglect and environmental disorder of shared places, without treating poverty or demographic composition itself as disorder.",Safety | Well-being
+V27,Perceived neighborhood safety,place,Priority residents' perceived safety from crime and traffic danger when using streets and shared places; perceptions may differ from measured risk.,Safety | Mobility | Access
+V22,Traffic injury risk,place,Population-level injury risk to priority residents from road traffic; not risk per walking trip. More exposure can raise injuries in unsafe conditions.,Safety | Mobility | Well-being
+V23,Air pollution exposure,health,Priority residents' exposure to harmful outdoor pollutants. Traffic emissions are one driver; local dispersion and other sources remain contextual.,Well-being | Safety
+V24,Noise exposure,health,Harmful environmental noise affecting priority residents; unequal exposure is context-dependent rather than assumed in every city.,Well-being | Safety
+V25,Heat exposure,health,"Harmful heat experienced by priority residents, conditional on shade, dwelling conditions, cooling access and individual vulnerability.",Well-being | Safety
+V29,Chronic stress,health,"Persistent psychosocial stress associated with financial strain, insecurity, environmental conditions and constrained control.",Well-being
+V30,Physical ill health,health,"Physical morbidity and functional limitations in priority residents. The model represents direction, not a fitted disease incidence rate.",Well-being
+V31,Mental ill health,health,"Adverse mental health among priority residents, distinguished from stress as a mediating experience; no diagnosis is inferred for individuals.",Well-being
+V32,Work participation,health,Priority residents' ability to obtain and sustain paid work. The health-to-work link is a synthesis hypothesis sensitive to labor protections.,Well-being | Access
+V33,Unmet-needs disparity,equity,"Excess unmet built-environment needs among priority groups relative to a locally defined, better-served reference group. Higher means less equity. A conceptual set of domain-specific gaps, with no invented weighting or scalar score.",Well-being | Access | Mobility | Shelter | Safety
+V34,Health inequity,equity,"Unfair, avoidable excess physical and mental ill health among priority groups relative to the local reference group; health inequality requires normative assessment to call it inequity.",Well-being
