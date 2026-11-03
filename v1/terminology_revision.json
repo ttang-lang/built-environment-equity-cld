@@ -1,0 +1,676 @@
+{
+  "date": "2026-11-03",
+  "previousVersion": "2026-11-03.1",
+  "modelVersion": "2026-11-03.2",
+  "purpose": "Replace ambiguous population terminology with an explicit study-population definition and explain the reference group and gap indicators.",
+  "graphStructureUnchanged": true,
+  "changes": [
+    {
+      "path": [
+        "anchors",
+        34,
+        "paraphrase"
+      ],
+      "before": "The source model represents the distribution of poor self-assessed health between neighborhoods. The present model adapts this to a defined priority/reference-group prevalence gap; it does not estimate a morbidity-to-self-rating function.",
+      "after": "The source model represents the distribution of poor self-assessed health between neighborhoods. The present model adapts this to a defined prevalence gap between residents facing disadvantage and a defined reference group; it does not estimate a morbidity-to-self-rating function."
+    },
+    {
+      "path": [
+        "edges",
+        2,
+        "scope"
+      ],
+      "before": "CROSS-LEVEL CONDITION: priority residents form a material part of the neighborhood organizing base. Stress in a politically excluded minority need not change aggregate influence. S1 describes neighborhood stress, not this group-specific estimate.",
+      "after": "CROSS-LEVEL CONDITION: residents facing disadvantage form a material part of the neighborhood organizing base. Stress in a politically excluded minority need not change aggregate influence. S1 describes neighborhood stress, not this group-specific estimate."
+    },
+    {
+      "path": [
+        "edges",
+        4,
+        "rationale"
+      ],
+      "before": "Spending directed to usable public spaces can improve their quality for priority residents.",
+      "after": "Spending directed to usable public spaces can improve their quality for residents facing disadvantage."
+    },
+    {
+      "path": [
+        "edges",
+        4,
+        "scope"
+      ],
+      "before": "Assumes implementation, maintenance and effective priority-group access. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed.",
+      "after": "Assumes implementation, maintenance and effective access for residents facing disadvantage. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed."
+    },
+    {
+      "path": [
+        "edges",
+        8,
+        "scope"
+      ],
+      "before": "Assumes quality gains reach original priority residents and preserve affordability. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed.",
+      "after": "Assumes quality gains reach original residents facing disadvantage and preserve affordability. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed."
+    },
+    {
+      "path": [
+        "edges",
+        9,
+        "rationale"
+      ],
+      "before": "Targeted retrofit programs can improve energy performance in priority households' homes.",
+      "after": "Targeted retrofit programs can improve energy performance in homes occupied by households facing disadvantage."
+    },
+    {
+      "path": [
+        "edges",
+        14,
+        "rationale"
+      ],
+      "before": "A worsening injury burden among priority residents may prompt an equity-focused safety response.",
+      "after": "A worsening injury burden among residents facing disadvantage may prompt an equity-focused safety response."
+    },
+    {
+      "path": [
+        "edges",
+        42,
+        "rationale"
+      ],
+      "before": "Green-space improvements can lower heat exposure when they increase effective vegetation, shade or cooling at places priority residents use.",
+      "after": "Green-space improvements can lower heat exposure when they increase effective vegetation, shade or cooling at places residents facing disadvantage use."
+    },
+    {
+      "path": [
+        "edges",
+        53,
+        "scope"
+      ],
+      "before": "CROSS-LEVEL CONDITION: changed priority-group car trips use the modeled streets and are not offset by other travelers, route diversion, freight or induced traffic. Hold occupancy and trip distance explicit.",
+      "after": "CROSS-LEVEL CONDITION: changed car trips made by residents facing disadvantage use the modeled streets and are not offset by other travelers, route diversion, freight or induced traffic. Hold occupancy and trip distance explicit."
+    },
+    {
+      "path": [
+        "edges",
+        66,
+        "rationale"
+      ],
+      "before": "Closing priority residents' healthy-housing shortfall can narrow the shelter-needs gap.",
+      "after": "Closing the healthy-housing shortfall experienced by residents facing disadvantage can narrow the shelter-needs gap."
+    },
+    {
+      "path": [
+        "edges",
+        66,
+        "scope"
+      ],
+      "before": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected residents facing disadvantage; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+    },
+    {
+      "path": [
+        "edges",
+        67,
+        "rationale"
+      ],
+      "before": "Removing priority residents' effective service-access barriers can narrow the access gap.",
+      "after": "Removing barriers that prevent residents facing disadvantage from using essential services can narrow the access gap."
+    },
+    {
+      "path": [
+        "edges",
+        67,
+        "scope"
+      ],
+      "before": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected residents facing disadvantage; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+    },
+    {
+      "path": [
+        "edges",
+        68,
+        "scope"
+      ],
+      "before": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected residents facing disadvantage; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+    },
+    {
+      "path": [
+        "edges",
+        69,
+        "scope"
+      ],
+      "before": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected residents facing disadvantage; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+    },
+    {
+      "path": [
+        "edges",
+        70,
+        "scope"
+      ],
+      "before": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected residents facing disadvantage; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+    },
+    {
+      "path": [
+        "edges",
+        71,
+        "scope"
+      ],
+      "before": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected residents facing disadvantage; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+    },
+    {
+      "path": [
+        "edges",
+        72,
+        "rationale"
+      ],
+      "before": "Improving priority groups' felt ability to use places safely can narrow the safety-needs gap.",
+      "after": "Improving the perceived ability of residents facing disadvantage to use places safely can narrow the safety-needs gap."
+    },
+    {
+      "path": [
+        "edges",
+        72,
+        "scope"
+      ],
+      "before": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected residents facing disadvantage; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+    },
+    {
+      "path": [
+        "edges",
+        73,
+        "rationale"
+      ],
+      "before": "Worsening physical ill health may raise poor-self-rated-health prevalence among priority residents and thereby widen the gap.",
+      "after": "Worsening physical ill health may raise poor-self-rated-health prevalence among residents facing disadvantage and thereby widen the gap."
+    },
+    {
+      "path": [
+        "edges",
+        73,
+        "scope"
+      ],
+      "before": "OUTCOME-MAPPING ASSUMPTION: morbidity changes self-rated health and priority-group deterioration exceeds reference-group deterioration. Self-rating, survey thresholds and population composition are held comparable. This is not a mechanical identity or proof of unfairness.",
+      "after": "OUTCOME-MAPPING ASSUMPTION: morbidity changes self-rated health and deterioration among residents facing disadvantage exceeds reference-group deterioration. Self-rating, survey thresholds and population composition are held comparable. This is not a mechanical identity or proof of unfairness."
+    },
+    {
+      "path": [
+        "edges",
+        74,
+        "rationale"
+      ],
+      "before": "Worsening mental ill health may raise poor-self-rated-health prevalence among priority residents and thereby widen the gap.",
+      "after": "Worsening mental ill health may raise poor-self-rated-health prevalence among residents facing disadvantage and thereby widen the gap."
+    },
+    {
+      "path": [
+        "edges",
+        74,
+        "scope"
+      ],
+      "before": "OUTCOME-MAPPING ASSUMPTION: morbidity changes self-rated health and priority-group deterioration exceeds reference-group deterioration. Self-rating, survey thresholds and population composition are held comparable. This is not a mechanical identity or proof of unfairness.",
+      "after": "OUTCOME-MAPPING ASSUMPTION: morbidity changes self-rated health and deterioration among residents facing disadvantage exceeds reference-group deterioration. Self-rating, survey thresholds and population composition are held comparable. This is not a mechanical identity or proof of unfairness."
+    },
+    {
+      "path": [
+        "loops",
+        0,
+        "equityEffect"
+      ],
+      "before": "Can improve safety and social wellbeing for priority residents; unevenly distributed gains can still leave disparities unchanged.",
+      "after": "Can improve safety and social wellbeing for residents facing disadvantage; unevenly distributed gains can still leave disparities unchanged."
+    },
+    {
+      "path": [
+        "loops",
+        3,
+        "assumptions",
+        0
+      ],
+      "before": "Collective influence affects realized investment, and stressed priority residents form the relevant organizing base.",
+      "after": "Collective influence affects realized investment, and stressed residents facing disadvantage form the relevant organizing base."
+    },
+    {
+      "path": [
+        "loops",
+        3,
+        "assumptions",
+        1
+      ],
+      "before": "Public-space quality is accessible to the same priority population.",
+      "after": "Public-space quality is accessible to the same study population."
+    },
+    {
+      "path": [
+        "loops",
+        4,
+        "equityEffect"
+      ],
+      "before": "A plausible disadvantage trap or virtuous cycle for original priority households, depending on housing supply, employment support and social protection.",
+      "after": "A plausible disadvantage trap or virtuous cycle for original households facing disadvantage, depending on housing supply, employment support and social protection."
+    },
+    {
+      "path": [
+        "loops",
+        5,
+        "assumptions",
+        2
+      ],
+      "before": "Priority-group improvement exceeds reference-group improvement.",
+      "after": "Improvement among residents facing disadvantage exceeds reference-group improvement."
+    },
+    {
+      "path": [
+        "loops",
+        6,
+        "mechanism"
+      ],
+      "before": "Detected mobility shortfalls prompt an equity response and targeted spending. Inclusive public transport reduces priority residents' unmet mobility needs and the disparity prompting action.",
+      "after": "Detected mobility shortfalls prompt an equity response and targeted spending. Inclusive public transport reduces unmet mobility needs among residents facing disadvantage and the disparity prompting action."
+    },
+    {
+      "path": [
+        "meta",
+        "limitations",
+        1
+      ],
+      "before": "All disparity arrows require disproportionate priority-group change relative to the reference group. Average environmental or health improvement alone does not establish greater equity.",
+      "after": "A gap narrows when the outcome for residents facing disadvantage improves relative to the reference group. Average environmental or health improvement alone does not establish greater equity. Group membership and outcome definitions must remain comparable over time."
+    },
+    {
+      "path": [
+        "meta",
+        "limitations",
+        2
+      ],
+      "before": "The proposed unmet-needs indicator is the priority-minus-reference gap in prevalence of any unmet need, with locally agreed thresholds and separate domain reporting. It is not a validated scale. Poor-health prevalence uses a prespecified self-rated-health measure; disparity alone is not proof of inequity.",
+      "after": "The proposed unmet-needs indicator subtracts the reference-group prevalence of any unmet need from the prevalence among residents facing disadvantage, with locally agreed thresholds and separate domain reporting. It is not a validated scale. Poor-health prevalence uses a prespecified self-rated-health measure; disparity alone is not proof of inequity."
+    },
+    {
+      "path": [
+        "meta",
+        "population"
+      ],
+      "before": null,
+      "after": {
+        "term": "Residents facing disadvantage",
+        "definition": "Residents facing barriers to adequate housing, accessible transport, safe public spaces or essential services. These barriers describe circumstances, not an inherent characteristic of a person.",
+        "studyGroup": "For a specific study, define the study group at the start using explicit local criteria. The phrase \"study group\" refers to those residents throughout the model.",
+        "examples": [
+          "Low-income renters facing housing-cost pressure.",
+          "Residents with mobility limitations facing inaccessible streets or public transport.",
+          "Residents with limited access to affordable essential services or safe public spaces."
+        ],
+        "exampleNote": "These are examples of possible study populations, not a claim that every pathway affects all of them equally. Choose and document the population; do not switch groups between variables.",
+        "referenceTerm": "Reference group",
+        "referenceDefinition": "A locally defined comparison group facing fewer of the relevant barriers. State who is included, why the comparison is appropriate and which outcome is being compared.",
+        "cohortRule": "Define membership at the start and follow the same groups over time, including people who move away. Do not remove residents from the study group simply because their circumstances improve. Household variables refer to the households in which these residents live.",
+        "gapInterpretation": "For both gap indicators, subtract the reference-group percentage from the study-group percentage. A positive gap indicates a worse outcome for the study group; zero means equal percentages, not that everyone has adequate conditions. A negative gap means the reference group has the higher percentage. Always report each group's outcome alongside the gap."
+      }
+    },
+    {
+      "path": [
+        "meta",
+        "scope"
+      ],
+      "before": "Urban neighborhood systems, primarily high-income settings represented in these reviews. Follow original low-income and otherwise underserved residents, alongside a locally defined better-served reference group. Age, disability, gender, ethnicity, tenure, climate and institutional context modify mechanisms; no universal group hierarchy is assumed. Rent-capitalization and payment-burden paths concern market-exposed renters; owner housing-wealth effects are outside this model. Exposure and population denominators are stated per variable.",
+      "after": "Urban neighborhood systems, primarily high-income settings represented in these reviews. Follow a defined group of residents facing disadvantage and a locally defined reference group. Disadvantage here means barriers to adequate housing, accessible transport, safe public spaces or essential services. Age, disability, gender, ethnicity, tenure, climate and institutions can modify mechanisms; no universal group hierarchy is assumed. Rent-capitalization and payment-burden paths concern market-exposed renters. Owner housing-wealth effects are outside this model. Population membership and measurement periods must be defined locally before empirical use."
+    },
+    {
+      "path": [
+        "nodes",
+        0,
+        "definition"
+      ],
+      "before": "Priority households' income after taxes and transfers, before housing and household energy payments. Assess change for the same households; neighborhood compositional change is V35. Assets and borrowing are contextual buffers, not part of this income flow.",
+      "after": "Income of households facing disadvantage after taxes and transfers, before housing and household energy payments. Assess change for the same households; neighborhood compositional change is V35. Assets and borrowing are contextual buffers, not part of this income flow."
+    },
+    {
+      "path": [
+        "nodes",
+        1,
+        "definition"
+      ],
+      "before": "Neighborhood-level effective collective influence over planning, budgets and housing decisions. Influence can favor affluent newcomers; a neighborhood gain is not automatically greater voice for original priority residents.",
+      "after": "Neighborhood-level effective collective influence over planning, budgets and housing decisions. Influence can favor affluent newcomers; a neighborhood gain is not automatically greater voice for original residents facing disadvantage."
+    },
+    {
+      "path": [
+        "nodes",
+        3,
+        "measurementNote"
+      ],
+      "before": "Institutional priority and implementation effort; an ordinal construct requiring local stakeholder definition.",
+      "after": "Institutional commitment and implementation effort; an ordinal construct requiring local stakeholder definition."
+    },
+    {
+      "path": [
+        "nodes",
+        4,
+        "definition"
+      ],
+      "before": "Effective provision and preservation of affordable secure homes, tenant protections and anti-displacement measures for priority residents.",
+      "after": "Effective provision and preservation of affordable secure homes, tenant protections and anti-displacement measures for renters and other residents facing housing insecurity or affordability barriers."
+    },
+    {
+      "path": [
+        "nodes",
+        4,
+        "measurementNote"
+      ],
+      "before": "Effective coverage and enforceability of protections for priority households; assess provision and protection separately in an empirical model.",
+      "after": "Effective coverage and enforceability of protections for households facing disadvantage; assess provision and protection separately in an empirical model."
+    },
+    {
+      "path": [
+        "nodes",
+        6,
+        "definition"
+      ],
+      "before": "Priority residents' access to homes with adequate ventilation, moisture control, thermal comfort and safe materials; energy performance is separately represented.",
+      "after": "Access for residents facing disadvantage to homes with adequate ventilation, moisture control, thermal comfort and safe materials; energy performance is separately represented."
+    },
+    {
+      "path": [
+        "nodes",
+        6,
+        "measurementNote"
+      ],
+      "before": "Prespecified housing-condition assessment for homes occupied by priority residents; higher means healthier conditions.",
+      "after": "Prespecified housing-condition assessment for homes occupied by residents facing disadvantage; higher means healthier conditions."
+    },
+    {
+      "path": [
+        "nodes",
+        7,
+        "definition"
+      ],
+      "before": "Energy performance of priority households' homes, with adequate ventilation and comfort maintained; implementation costs are not assumed away.",
+      "after": "Energy performance of homes occupied by households facing disadvantage, with adequate ventilation and comfort maintained; implementation costs are not assumed away."
+    },
+    {
+      "path": [
+        "nodes",
+        12,
+        "definition"
+      ],
+      "before": "Priority residents' uncertainty about retaining an adequate, affordable home; includes threatened loss and unstable tenure.",
+      "after": "Uncertainty among residents facing disadvantage about retaining an adequate, affordable home; includes threatened loss and unstable tenure."
+    },
+    {
+      "path": [
+        "nodes",
+        12,
+        "measurementNote"
+      ],
+      "before": "Share of priority residents experiencing threatened housing loss or unstable tenure over a fixed period.",
+      "after": "Share of residents facing disadvantage experiencing threatened housing loss or unstable tenure over a fixed period."
+    },
+    {
+      "path": [
+        "nodes",
+        13,
+        "definition"
+      ],
+      "before": "Forced or financially compelled residential moves among original priority residents; distinct from all residential mobility or cultural change alone.",
+      "after": "Forced or financially compelled residential moves among original residents facing disadvantage; distinct from all residential mobility or cultural change alone."
+    },
+    {
+      "path": [
+        "nodes",
+        13,
+        "measurementNote"
+      ],
+      "before": "Involuntary residential moves per original priority resident per year; follow displaced residents outside the neighborhood.",
+      "after": "Involuntary residential moves per original resident in the defined study group per year; follow displaced residents outside the neighborhood."
+    },
+    {
+      "path": [
+        "nodes",
+        15,
+        "definition"
+      ],
+      "before": "Affordable, physically accessible, reliable public transport that meets priority groups' destinations and travel needs; distance to a stop alone is insufficient.",
+      "after": "Affordable, physically accessible, reliable public transport that meets the destinations and travel needs of residents facing disadvantage; distance to a stop alone is insufficient."
+    },
+    {
+      "path": [
+        "nodes",
+        15,
+        "measurementNote"
+      ],
+      "before": "Share of priority residents whose essential journeys are served by affordable, accessible and reliable transit.",
+      "after": "Share of residents facing disadvantage whose essential journeys are served by affordable, accessible and reliable transit."
+    },
+    {
+      "path": [
+        "nodes",
+        17,
+        "definition"
+      ],
+      "before": "Walking and cycling time for everyday transport per priority resident, including walking to public transport. Excludes gym exercise and purely recreational activity. Population coverage, trip purposes and reporting period are fixed.",
+      "after": "Walking and cycling time for everyday transport per resident in the defined study group, including walking to public transport. Excludes gym exercise and purely recreational activity. Population coverage, trip purposes and reporting period are fixed."
+    },
+    {
+      "path": [
+        "nodes",
+        17,
+        "measurementNote"
+      ],
+      "before": "Walking/cycling transport minutes per priority resident per week.",
+      "after": "Walking/cycling transport minutes per resident in the defined study group per week."
+    },
+    {
+      "path": [
+        "nodes",
+        18,
+        "measurementNote"
+      ],
+      "before": "Private motorized travel per priority resident for essential journeys; assess trip length, occupancy and alternatives.",
+      "after": "Private motorized travel per resident in the defined study group for essential journeys; assess trip length, occupancy and alternatives."
+    },
+    {
+      "path": [
+        "nodes",
+        19,
+        "definition"
+      ],
+      "before": "Motor-vehicle traffic in places used by priority residents, with background fleet, road design and speeds held in context.",
+      "after": "Motor-vehicle traffic in places used by residents facing disadvantage, with background fleet, road design and speeds held in context."
+    },
+    {
+      "path": [
+        "nodes",
+        20,
+        "definition"
+      ],
+      "before": "Condition and usability of shared green spaces serving priority residents, including maintenance, welcoming design and effective access. Canopy and shade are separate attributes: a quality improvement has a cooling effect only when it improves those attributes at places people use.",
+      "after": "Condition and usability of shared green spaces serving residents facing disadvantage, including maintenance, welcoming design and effective access. Canopy and shade are separate attributes: a quality improvement has a cooling effect only when it improves those attributes at places people use."
+    },
+    {
+      "path": [
+        "nodes",
+        21,
+        "measurementNote"
+      ],
+      "before": "Share of priority residents able to obtain prespecified essential services within affordable time and money budgets.",
+      "after": "Share of residents facing disadvantage able to obtain prespecified essential services within affordable time and money budgets."
+    },
+    {
+      "path": [
+        "nodes",
+        22,
+        "definition"
+      ],
+      "before": "Inclusive trust, support and collective capacity among original priority residents; exclusionary bonding is not counted as an equity benefit.",
+      "after": "Inclusive trust, support and collective capacity among original residents facing disadvantage; exclusionary bonding is not counted as an equity benefit."
+    },
+    {
+      "path": [
+        "nodes",
+        22,
+        "measurementNote"
+      ],
+      "before": "Inclusive trust and mutual support among the original priority-resident network; a validated local survey is needed.",
+      "after": "Inclusive trust and mutual support among the original network of residents facing disadvantage; a validated local survey is needed."
+    },
+    {
+      "path": [
+        "nodes",
+        24,
+        "definition"
+      ],
+      "before": "Priority residents' perceived safety from crime and traffic danger when using streets and shared places; perceptions may differ from measured risk.",
+      "after": "Perceived safety from crime and traffic danger among residents facing disadvantage when using streets and shared places; perceptions may differ from measured risk."
+    },
+    {
+      "path": [
+        "nodes",
+        25,
+        "definition"
+      ],
+      "before": "Road-traffic injuries sustained while walking or cycling for transport per priority resident per year. This is a population incidence measure, not injury risk per trip or per kilometer, and excludes car-occupant-only injuries.",
+      "after": "Road-traffic injuries sustained while walking or cycling for transport per resident in the defined study group per year. This is a population incidence measure, not injury risk per trip or per kilometer, and excludes car-occupant-only injuries."
+    },
+    {
+      "path": [
+        "nodes",
+        25,
+        "measurementNote"
+      ],
+      "before": "Active-travel road injuries per 100,000 priority residents per year; fix reporting completeness.",
+      "after": "Active-travel road injuries per 100,000 residents facing disadvantage per year; fix reporting completeness."
+    },
+    {
+      "path": [
+        "nodes",
+        26,
+        "definition"
+      ],
+      "before": "Priority residents' exposure to harmful outdoor pollutants. Traffic emissions are one driver; local dispersion and other sources remain contextual.",
+      "after": "Exposure of residents facing disadvantage to harmful outdoor pollutants. Traffic emissions are one driver; local dispersion and other sources remain contextual."
+    },
+    {
+      "path": [
+        "nodes",
+        27,
+        "definition"
+      ],
+      "before": "Harmful environmental noise affecting priority residents; unequal exposure is context-dependent rather than assumed in every city.",
+      "after": "Harmful environmental noise affecting residents facing disadvantage; unequal exposure is context-dependent rather than assumed in every city."
+    },
+    {
+      "path": [
+        "nodes",
+        28,
+        "definition"
+      ],
+      "before": "Harmful heat experienced by priority residents, conditional on shade, dwelling conditions, cooling access and individual vulnerability.",
+      "after": "Harmful heat experienced by residents facing disadvantage, conditional on shade, dwelling conditions, cooling access and individual vulnerability."
+    },
+    {
+      "path": [
+        "nodes",
+        29,
+        "measurementNote"
+      ],
+      "before": "Persistent stress among priority residents using an appropriate survey instrument; no diagnostic inference.",
+      "after": "Persistent stress among residents facing disadvantage using an appropriate survey instrument; no diagnostic inference."
+    },
+    {
+      "path": [
+        "nodes",
+        30,
+        "definition"
+      ],
+      "before": "Physical morbidity and functional limitations in priority residents. The model represents direction, not a fitted disease incidence rate.",
+      "after": "Physical morbidity and functional limitations in residents facing disadvantage. The model represents direction, not a fitted disease incidence rate."
+    },
+    {
+      "path": [
+        "nodes",
+        31,
+        "definition"
+      ],
+      "before": "Adverse mental health among priority residents, distinguished from stress as a mediating experience; no diagnosis is inferred for individuals.",
+      "after": "Adverse mental health among residents facing disadvantage, distinguished from stress as a mediating experience; no diagnosis is inferred for individuals."
+    },
+    {
+      "path": [
+        "nodes",
+        32,
+        "definition"
+      ],
+      "before": "Priority residents' ability to obtain and sustain paid work. The health-to-work link is a synthesis hypothesis sensitive to labor protections.",
+      "after": "The ability of working-age residents facing disadvantage to obtain and sustain paid work. The health-to-work link is a synthesis hypothesis sensitive to labor protections."
+    },
+    {
+      "path": [
+        "nodes",
+        32,
+        "measurementNote"
+      ],
+      "before": "Paid-work participation among working-age priority residents; distinguish hours, employment and productivity in future measurement.",
+      "after": "Paid-work participation among working-age residents facing disadvantage; distinguish hours, employment and productivity in future measurement."
+    },
+    {
+      "path": [
+        "nodes",
+        33,
+        "definition"
+      ],
+      "before": "Percentage-point difference between priority and reference groups in the share of residents with at least one prespecified unmet built-environment need. Use locally agreed, group-appropriate thresholds for the five stated domains. This proposed non-compensatory indicator is not a validated scale; report each domain alongside it. A positive gap indicates priority-group disadvantage.",
+      "after": "Percentage-point difference in the prevalence of at least one unmet built-environment need: residents facing disadvantage minus the defined reference group. Agree group-appropriate thresholds for the five stated needs domains before measurement. This proposed non-compensatory indicator is not a validated scale; report each domain alongside it. A positive gap means unmet needs are more common among the residents facing disadvantage."
+    },
+    {
+      "path": [
+        "nodes",
+        33,
+        "measurementNote"
+      ],
+      "before": "100 × [P(at least one unmet need | priority) − P(at least one unmet need | reference)]. Thresholds and membership fixed; no domain weights.",
+      "after": "Gap (percentage points) = percentage with at least one unmet need among residents facing disadvantage − percentage with at least one unmet need in the reference group. Keep group membership, thresholds and reporting period fixed; no domain weights."
+    },
+    {
+      "path": [
+        "nodes",
+        34,
+        "definition"
+      ],
+      "before": "Percentage-point difference between priority and reference groups in the prevalence of poor self-rated health, using the same prespecified survey definition and period. A positive gap indicates priority-group disadvantage. Interpreting it as inequity additionally requires an assessment of unfairness and avoidability; physical or mental morbidity does not mechanically determine self-rating.",
+      "after": "Percentage-point difference in poor-self-rated-health prevalence: residents facing disadvantage minus the defined reference group, using the same survey definition and period. A positive gap means poor self-rated health is more common among the residents facing disadvantage. Interpreting it as inequity additionally requires an assessment of unfairness and avoidability; physical or mental morbidity does not mechanically determine self-rating."
+    },
+    {
+      "path": [
+        "nodes",
+        34,
+        "measurementNote"
+      ],
+      "before": "100 × [P(poor self-rated health | priority) − P(poor self-rated health | reference)]. Prespecify response categories and any age standardization.",
+      "after": "Gap (percentage points) = percentage reporting poor health among residents facing disadvantage − percentage reporting poor health in the reference group. Keep group membership fixed; prespecify survey response categories and any age standardization."
+    },
+    {
+      "path": [
+        "provenance",
+        "terminologyRevision"
+      ],
+      "before": null,
+      "after": {
+        "date": "2026-11-03",
+        "version": "2026-11-03.2",
+        "previousVersion": "2026-11-03.1",
+        "record": "terminology_revision.json",
+        "description": "Clarified study-population terminology, reference-group definitions and gap explanations. The graph structure, signs, evidence categories and scientific-review conclusions are retained."
+      }
+    },
+    {
+      "path": [
+        "version"
+      ],
+      "before": "2026-11-03.1",
+      "after": "2026-11-03.2"
+    }
+  ],
+  "historicalReview": "cld_review.json retains the scientific review of version 2026-11-03.1."
+}

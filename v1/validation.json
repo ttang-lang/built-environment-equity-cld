@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "modelVersion": "2026-11-03.2",
+  "modelSha256": "1995f1dd8bb50dbc513025ad0a2a9d93c4965e1ee508d97fdc0228e605c68b2b",
+  "variables": 35,
+  "signedLinks": 77,
+  "highlightedLoops": 10,
+  "reinforcing": 5,
+  "balancing": 5,
+  "literatureSources": 6,
+  "evidenceAnchors": 35,
+  "checks": [
+    "Unique node and edge identifiers",
+    "All signed edges have valid endpoints",
+    "Literature-linked edges have valid evidence anchors; two algebraic edges have derivations",
+    "No duplicate directed edges or isolated variables",
+    "Every highlighted loop is a directed simple closed cycle",
+    "Every loop sign product matches its R/B label",
+    "All variables have measurement boundaries",
+    "All loops have explicit evidence categories",
+    "Population terminology and reference-group definition made explicit",
+    "Node IDs, layout, edge endpoints, signs and loop structure preserved from 2026-11-03.1"
+  ],
+  "limits": "Structural and metadata consistency only; no empirical causal or independent expert validation."
+}

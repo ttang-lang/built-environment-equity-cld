@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#123c43">
+  <meta name="description" content="An evidence-linked causal loop diagram exploring equity in the built environment.">
+  <title>Built Environment Equity · Causal Atlas</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="presentation.css">
+  <script defer src="model.js"></script>
+  <script defer src="graph_geometry.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="#" aria-label="Causal Atlas home"><span class="brand-mark" aria-hidden="true">↗<i>↙</i></span><span>CAUSAL ATLAS<span class="brand-sub">BUILT ENVIRONMENT &amp; EQUITY</span></span></a>
+    <div class="project-label"><span class="status-dot"></span> A literature-informed systems model</div>
+    <div class="header-actions"><button id="methodButton" class="text-button">How to read this map <span aria-hidden="true">↗</span></button><button id="sourcesButton" class="button light">Sources <span id="sourceCount"></span></button><div class="download-wrap"><button id="downloadButton" class="button dark" aria-expanded="false" aria-controls="downloadMenu">Export <span aria-hidden="true">↓</span></button><div id="downloadMenu" class="download-menu" hidden><button id="exportSvg">Full system as SVG</button><button id="exportJson">Full model as JSON</button><a href="causal_links.csv" download>Relationships as CSV</a><a href="variables.csv" download>Variables as CSV</a><a href="feedback_loops.csv" download>Feedback loops as CSV</a></div></div></div>
+  </header>
+  <section class="intro" aria-label="Project overview">
+    <div><div class="eyebrow">THE SYSTEMS BEHIND UNEQUAL PLACES</div><h1>Built environment equity</h1><p id="introDescription">Explore how the conditions of places shape people’s opportunities—and how feedback sustains or changes inequity.</p></div>
+    <div class="metrics" aria-label="Model size"><div><strong id="nodeCount">—</strong><span>variables</span></div><div><strong id="edgeCount">—</strong><span>relationships</span></div><div><strong id="loopCount">—</strong><span>feedback loops</span></div></div>
+  </section>
+  <main id="workspace" class="workspace inspector-collapsed" aria-label="Causal diagram workspace">
+    <div class="graph-toolbar" role="toolbar" aria-label="Diagram controls">
+      <div class="graph-toolbar-left">
+        <button id="toggleExplorer" type="button" aria-controls="explorer" aria-expanded="true" aria-pressed="true" title="Show or hide the loop and variable explorer">Explore</button>
+        <button id="showSystem" type="button" aria-pressed="true" title="Show all 35 variables and 77 relationships">Full system</button>
+        <button id="loopViewToggle" type="button" aria-pressed="false" disabled title="Choose a loop, then switch between its isolated and full-system views">Isolate loop</button>
+        <span id="viewMode" class="view-mode-badge">Themed map</span>
+      </div>
+      <div class="graph-toolbar-right">
+        <button id="fitAll" type="button" title="Fit the current diagram (0)">Fit view</button>
+        <button id="actualSize" type="button" title="Display the diagram at its original text size">100%</button>
+        <button id="toggleInspector" type="button" aria-controls="inspector" aria-expanded="false" aria-pressed="false" title="Show or hide explanations and evidence">Details</button>
+        <button id="exportView" type="button" title="Download the current diagram with its legend as SVG">Export view</button>
+        <button id="fullscreenButton" type="button" aria-controls="workspace" aria-pressed="false" title="Open or close full-screen mode (F; Esc to exit)">Full screen</button>
+      </div>
+    </div>
+    <aside id="explorer" class="explorer" aria-label="Explore the model">
+      <div class="explorer-header"><span class="eyebrow">EXPLORE THE MODEL</span><button id="overviewButton" class="small-link">Full overview ↗</button></div>
+      <div class="tabs" role="tablist" aria-label="Explorer sections"><button class="active" role="tab" aria-selected="true" aria-controls="loopList" id="tab-loops" data-tab="loops">Loops <span id="loopTabCount"></span></button><button role="tab" aria-selected="false" aria-controls="edgeList" id="tab-links" data-tab="links">Links <span id="edgeTabCount"></span></button><button role="tab" aria-selected="false" aria-controls="nodeList" id="tab-variables" data-tab="variables">Variables</button></div>
+      <div class="search-box"><svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="8" cy="8" r="5.5"></circle><path d="m12 12 5 5"></path></svg><input id="searchInput" type="search" placeholder="Search loops…" aria-label="Search model"><kbd>/</kbd></div>
+      <div id="explorerHint" class="explorer-hint">Select a loop to highlight its path in the themed map.</div>
+      <div class="explorer-scroll"><div id="loopList" role="tabpanel" aria-labelledby="tab-loops"></div><div id="edgeList" role="tabpanel" aria-labelledby="tab-links" hidden></div><div id="nodeList" role="tabpanel" aria-labelledby="tab-variables" hidden></div></div>
+      <div class="explorer-footer"><div class="legend-line"><span class="loop-dot reinforcing">R</span><span>Reinforcing</span><span class="loop-dot balancing">B</span><span>Balancing</span></div><p>Loop type describes dynamics, not whether a loop is socially beneficial.</p></div>
+    </aside>
+    <section class="canvas-panel" aria-label="Interactive causal loop diagram">
+      <div class="canvas-topbar"><div><span id="viewEyebrow" class="eyebrow">LOOP EXPLORER</span><h2 id="viewTitle">Loading model…</h2></div><div class="loop-navigation" aria-label="Browse feedback loops"><button id="previousLoop" type="button" aria-label="Previous feedback loop" title="Previous loop">←</button><span id="loopPosition">10 loops</span><button id="nextLoop" type="button" aria-label="Next feedback loop" title="Next loop">→</button><button id="resetFocus" class="icon-button" title="Return to the full system" aria-label="Return to the full system">⊞</button></div></div>
+      <div id="graphWrap" class="graph-wrap"><svg id="graph" xmlns="http://www.w3.org/2000/svg" tabindex="0" role="group" aria-label="Interactive signed causal loop diagram. Use the explorer to select every variable, arrow, and loop."><defs><marker id="arrow-positive" viewBox="0 0 11 10" markerWidth="11" markerHeight="10" refX="4" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L10,5 L1,9 Z" fill="#17675f"/></marker><marker id="arrow-negative" viewBox="0 0 11 10" markerWidth="11" markerHeight="10" refX="4" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L10,5 L1,9 Z" fill="#9b5d12"/></marker><marker id="arrow-neutral" viewBox="0 0 11 10" markerWidth="11" markerHeight="10" refX="4" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L10,5 L1,9 Z" fill="#65716d"/></marker><marker id="arrow-muted" viewBox="0 0 11 10" markerWidth="11" markerHeight="10" refX="4" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L10,5 L1,9 Z" fill="#a6b1ac"/></marker></defs><g id="viewport"><g id="groupLayer"></g><g id="edgeLayer"></g><g id="nodeLayer"></g><g id="badgeLayer"></g></g></svg><div id="emptyModel" class="empty-model" hidden><h2>The model could not be loaded</h2><p>Keep model.js next to this page and refresh to open the evidence-linked diagram.</p></div></div>
+      <div class="category-key" id="categoryKey" aria-label="Variable categories"></div><div class="canvas-bottom"><div class="polarity-legend"><span><i class="sign positive">+</i> Same direction</span><span><i class="sign negative">−</i> Opposite direction</span><span><i class="dashed-key"></i> Inferred / contingent</span><span><i class="delay-key">∥</i> Delay</span></div><button id="legendButton" class="small-link">Read the notation</button><div class="canvas-controls"><button id="zoomIn" aria-label="Zoom in" title="Zoom in">+</button><button id="zoomOut" aria-label="Zoom out" title="Zoom out">−</button><span></span><button id="fitView" aria-label="Fit current view" title="Fit current view">⛶</button><output id="zoomLabel" aria-label="Zoom level">100%</output></div><div class="canvas-help">Drag to pan <span>·</span> Scroll to zoom <span>·</span> F: full screen <span>·</span> 0: fit view</div></div>
+    </section>
+    <aside id="inspector" class="inspector" hidden aria-label="Selected item details" aria-live="polite"><div id="inspectorContent"></div></aside>
+  </main>
+  <footer class="page-footer"><span>Evidence-linked. Explicit assumptions. Inspectable feedback.</span><span id="footerVersion">Conceptual model · no numerical simulation</span></footer>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

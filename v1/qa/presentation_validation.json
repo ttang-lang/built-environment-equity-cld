@@ -1,0 +1,1146 @@
+{
+  "modelVersion": "2026-11-03.2",
+  "modelSha256": "1995f1dd8bb50dbc513025ad0a2a9d93c4965e1ee508d97fdc0228e605c68b2b",
+  "checks": [
+    {
+      "name": "Local-file initial full-system rendering",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "loops": 10,
+        "renderedEdges": 77,
+        "renderedNodes": 35,
+        "mode": "overview",
+        "geometry": {
+          "routes": 77,
+          "kinds": {
+            "cubic": 55,
+            "rounded-visibility": 22
+          },
+          "nodeCrossings": [],
+          "obstacleCrossings": [],
+          "maximumBends": 5,
+          "totalSamples": 7547
+        },
+        "loopChecks": [
+          {
+            "id": "R1",
+            "closed": true,
+            "computedType": "R",
+            "declaredType": "R"
+          },
+          {
+            "id": "R2",
+            "closed": true,
+            "computedType": "R",
+            "declaredType": "R"
+          },
+          {
+            "id": "R3",
+            "closed": true,
+            "computedType": "R",
+            "declaredType": "R"
+          },
+          {
+            "id": "R4",
+            "closed": true,
+            "computedType": "R",
+            "declaredType": "R"
+          },
+          {
+            "id": "R5",
+            "closed": true,
+            "computedType": "R",
+            "declaredType": "R"
+          },
+          {
+            "id": "B1",
+            "closed": true,
+            "computedType": "B",
+            "declaredType": "B"
+          },
+          {
+            "id": "B2",
+            "closed": true,
+            "computedType": "B",
+            "declaredType": "B"
+          },
+          {
+            "id": "B3",
+            "closed": true,
+            "computedType": "B",
+            "declaredType": "B"
+          },
+          {
+            "id": "B4",
+            "closed": true,
+            "computedType": "B",
+            "declaredType": "B"
+          },
+          {
+            "id": "B5",
+            "closed": true,
+            "computedType": "B",
+            "declaredType": "B"
+          }
+        ],
+        "missingAnchors": [],
+        "missingEndpoints": []
+      }
+    },
+    {
+      "name": "Loop closure and polarity",
+      "passed": true
+    },
+    {
+      "name": "Evidence and endpoint references",
+      "passed": true
+    },
+    {
+      "name": "No overlapping variable blocks",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Within-region relative positions preserved",
+      "passed": true,
+      "details": {
+        "relativePositionIssues": [],
+        "groupTranslations": {
+          "governance": {
+            "x": 0,
+            "y": 0
+          },
+          "housing": {
+            "x": 0,
+            "y": -30
+          },
+          "mobility": {
+            "x": 0,
+            "y": -20
+          },
+          "place": {
+            "x": 0,
+            "y": -60
+          },
+          "health": {
+            "x": 0,
+            "y": -120
+          }
+        }
+      }
+    },
+    {
+      "name": "Themed regions have equal 96-unit gutters in established order",
+      "passed": true,
+      "details": [
+        {
+          "from": "governance",
+          "to": "housing",
+          "axis": "y",
+          "gap": 96
+        },
+        {
+          "from": "housing",
+          "to": "mobility",
+          "axis": "y",
+          "gap": 96
+        },
+        {
+          "from": "mobility",
+          "to": "place",
+          "axis": "y",
+          "gap": 96
+        },
+        {
+          "from": "place",
+          "to": "health",
+          "axis": "y",
+          "gap": 96
+        },
+        {
+          "from": "housing",
+          "to": "equity",
+          "axis": "x",
+          "gap": 96
+        },
+        {
+          "from": "mobility",
+          "to": "equity",
+          "axis": "x",
+          "gap": 96
+        }
+      ]
+    },
+    {
+      "name": "Outcome nodes and rightmost health node retain row-column alignment",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Six original themed regions and headings retained",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Themed regions contain their original members without overlap",
+      "passed": true,
+      "details": {
+        "containmentIssues": [],
+        "regionOverlaps": []
+      }
+    },
+    {
+      "name": "All relationships use finite curved paths",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Routes avoid unrelated node interiors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Routes avoid themed-region headings",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Arrow endpoints connect to target blocks",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Node labels fit their blocks",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Node-label contrast and base size",
+      "passed": true,
+      "details": {
+        "minimumLabelContrast": 13.201057488715328,
+        "minimumLabelFontSize": 18
+      }
+    },
+    {
+      "name": "Every overview arrow has a pointer-reachable segment",
+      "passed": true,
+      "details": {
+        "total": 77,
+        "missed": []
+      }
+    },
+    {
+      "name": "100% control restores true scale",
+      "passed": true
+    },
+    {
+      "name": "Zoom in control increases scale",
+      "passed": true
+    },
+    {
+      "name": "Zoom out control reverses zoom in",
+      "passed": true
+    },
+    {
+      "name": "Fit view restores automatic fitting",
+      "passed": true
+    },
+    {
+      "name": "Every arrow opens explanation and evidence",
+      "passed": true,
+      "details": {
+        "arrows": 77,
+        "failures": []
+      }
+    },
+    {
+      "name": "Default grouped context for R1",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "moved": [],
+        "mode": "overview"
+      }
+    },
+    {
+      "name": "Isolated R1 path and evidence",
+      "passed": true,
+      "details": {
+        "nodes": [
+          "V28",
+          "V26",
+          "V27"
+        ],
+        "edges": [
+          "E40",
+          "E41",
+          "E42"
+        ],
+        "state": {
+          "mode": "loop",
+          "focusedLoop": "R1",
+          "selectedType": "loop",
+          "selectedId": "R1",
+          "scale": 1.0964499594872312,
+          "explorerOpen": true,
+          "inspectorOpen": true,
+          "fullscreen": false,
+          "autoFit": true
+        }
+      }
+    },
+    {
+      "name": "Default grouped context for R2",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "moved": [],
+        "mode": "overview"
+      }
+    },
+    {
+      "name": "Isolated R2 path and evidence",
+      "passed": true,
+      "details": {
+        "nodes": [
+          "V28",
+          "V14"
+        ],
+        "edges": [
+          "E39",
+          "E38"
+        ],
+        "state": {
+          "mode": "loop",
+          "focusedLoop": "R2",
+          "selectedType": "loop",
+          "selectedId": "R2",
+          "scale": 1.2506053268765134,
+          "explorerOpen": true,
+          "inspectorOpen": true,
+          "fullscreen": false,
+          "autoFit": true
+        }
+      }
+    },
+    {
+      "name": "Default grouped context for R3",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "moved": [],
+        "mode": "overview"
+      }
+    },
+    {
+      "name": "Isolated R3 path and evidence",
+      "passed": true,
+      "details": {
+        "nodes": [
+          "V35",
+          "V02",
+          "V03",
+          "V15",
+          "V12"
+        ],
+        "edges": [
+          "E01",
+          "E02",
+          "E06",
+          "E22",
+          "E23"
+        ],
+        "state": {
+          "mode": "loop",
+          "focusedLoop": "R3",
+          "selectedType": "loop",
+          "selectedId": "R3",
+          "scale": 0.9223930549742787,
+          "explorerOpen": true,
+          "inspectorOpen": true,
+          "fullscreen": false,
+          "autoFit": true
+        }
+      }
+    },
+    {
+      "name": "Default grouped context for R4",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "moved": [],
+        "mode": "overview"
+      }
+    },
+    {
+      "name": "Isolated R4 path and evidence",
+      "passed": true,
+      "details": {
+        "nodes": [
+          "V29",
+          "V02",
+          "V03",
+          "V14"
+        ],
+        "edges": [
+          "E03",
+          "E02",
+          "E05",
+          "E44"
+        ],
+        "state": {
+          "mode": "loop",
+          "focusedLoop": "R4",
+          "selectedType": "loop",
+          "selectedId": "R4",
+          "scale": 0.972718253968254,
+          "explorerOpen": true,
+          "inspectorOpen": true,
+          "fullscreen": false,
+          "autoFit": true
+        }
+      }
+    },
+    {
+      "name": "Default grouped context for R5",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "moved": [],
+        "mode": "overview"
+      }
+    },
+    {
+      "name": "Isolated R5 path and evidence",
+      "passed": true,
+      "details": {
+        "nodes": [
+          "V01",
+          "V06",
+          "V30",
+          "V32"
+        ],
+        "edges": [
+          "E34",
+          "E35",
+          "E67",
+          "E68"
+        ],
+        "state": {
+          "mode": "loop",
+          "focusedLoop": "R5",
+          "selectedType": "loop",
+          "selectedId": "R5",
+          "scale": 0.972718253968254,
+          "explorerOpen": true,
+          "inspectorOpen": true,
+          "fullscreen": false,
+          "autoFit": true
+        }
+      }
+    },
+    {
+      "name": "Default grouped context for B1",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "moved": [],
+        "mode": "overview"
+      }
+    },
+    {
+      "name": "Isolated B1 path and evidence",
+      "passed": true,
+      "details": {
+        "nodes": [
+          "V33",
+          "V04",
+          "V05",
+          "V10"
+        ],
+        "edges": [
+          "E14",
+          "E13",
+          "E18",
+          "E74"
+        ],
+        "state": {
+          "mode": "loop",
+          "focusedLoop": "B1",
+          "selectedType": "loop",
+          "selectedId": "B1",
+          "scale": 0.972718253968254,
+          "explorerOpen": true,
+          "inspectorOpen": true,
+          "fullscreen": false,
+          "autoFit": true
+        }
+      }
+    },
+    {
+      "name": "Default grouped context for B2",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "moved": [],
+        "mode": "overview"
+      }
+    },
+    {
+      "name": "Isolated B2 path and evidence",
+      "passed": true,
+      "details": {
+        "nodes": [
+          "V33",
+          "V04",
+          "V03",
+          "V16"
+        ],
+        "edges": [
+          "E14",
+          "E12",
+          "E07",
+          "E72"
+        ],
+        "state": {
+          "mode": "loop",
+          "focusedLoop": "B2",
+          "selectedType": "loop",
+          "selectedId": "B2",
+          "scale": 0.972718253968254,
+          "explorerOpen": true,
+          "inspectorOpen": true,
+          "fullscreen": false,
+          "autoFit": true
+        }
+      }
+    },
+    {
+      "name": "Default grouped context for B3",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "moved": [],
+        "mode": "overview"
+      }
+    },
+    {
+      "name": "Isolated B3 path and evidence",
+      "passed": true,
+      "details": {
+        "nodes": [
+          "V22",
+          "V04",
+          "V03",
+          "V17"
+        ],
+        "edges": [
+          "E16",
+          "E12",
+          "E08",
+          "E53"
+        ],
+        "state": {
+          "mode": "loop",
+          "focusedLoop": "B3",
+          "selectedType": "loop",
+          "selectedId": "B3",
+          "scale": 0.972718253968254,
+          "explorerOpen": true,
+          "inspectorOpen": true,
+          "fullscreen": false,
+          "autoFit": true
+        }
+      }
+    },
+    {
+      "name": "Default grouped context for B4",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "moved": [],
+        "mode": "overview"
+      }
+    },
+    {
+      "name": "Isolated B4 path and evidence",
+      "passed": true,
+      "details": {
+        "nodes": [
+          "V28",
+          "V14",
+          "V12",
+          "V08",
+          "V11"
+        ],
+        "edges": [
+          "E39",
+          "E21",
+          "E24",
+          "E31",
+          "E32"
+        ],
+        "state": {
+          "mode": "loop",
+          "focusedLoop": "B4",
+          "selectedType": "loop",
+          "selectedId": "B4",
+          "scale": 0.9223930549742787,
+          "explorerOpen": true,
+          "inspectorOpen": true,
+          "fullscreen": false,
+          "autoFit": true
+        }
+      }
+    },
+    {
+      "name": "Default grouped context for B5",
+      "passed": true,
+      "details": {
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "moved": [],
+        "mode": "overview"
+      }
+    },
+    {
+      "name": "Isolated B5 path and evidence",
+      "passed": true,
+      "details": {
+        "nodes": [
+          "V21",
+          "V22",
+          "V27"
+        ],
+        "edges": [
+          "E54",
+          "E55",
+          "E43"
+        ],
+        "state": {
+          "mode": "loop",
+          "focusedLoop": "B5",
+          "selectedType": "loop",
+          "selectedId": "B5",
+          "scale": 1.0964499594872312,
+          "explorerOpen": true,
+          "inspectorOpen": true,
+          "fullscreen": false,
+          "autoFit": true
+        }
+      }
+    },
+    {
+      "name": "Reciprocal arrows have separate curves",
+      "passed": true,
+      "details": {
+        "midpointSeparation": 390.46905583523494
+      }
+    },
+    {
+      "name": "Current-loop SVG export",
+      "passed": true,
+      "details": {
+        "valid": true,
+        "nodes": 5,
+        "edges": 5,
+        "groups": 0,
+        "viewBox": "0 0 1035 790",
+        "width": "1035",
+        "height": "790",
+        "hasSigns": true,
+        "hasLegend": true,
+        "hasEvidenceLegend": true,
+        "hasDelayLegend": true,
+        "length": 12684
+      }
+    },
+    {
+      "name": "Full-system SVG export from loop view",
+      "passed": true,
+      "details": {
+        "valid": true,
+        "nodes": 35,
+        "edges": 77,
+        "groups": 6,
+        "viewBox": "0 0 2032 1541",
+        "width": "2032",
+        "height": "1541",
+        "hasSigns": true,
+        "hasLegend": true,
+        "hasEvidenceLegend": true,
+        "hasDelayLegend": true,
+        "length": 102343
+      }
+    },
+    {
+      "name": "Loop context toggle reveals the full system",
+      "passed": true
+    },
+    {
+      "name": "Loop context toggle restores isolated loop",
+      "passed": true
+    },
+    {
+      "name": "Foreground curve has a real pointer hit target",
+      "passed": true,
+      "details": {
+        "x": 920.5397212728276,
+        "y": 381.40238171875853,
+        "id": "E01"
+      }
+    },
+    {
+      "name": "Real curve click opens its relationship",
+      "passed": true
+    },
+    {
+      "name": "Fullscreen control activates browser or fallback fullscreen",
+      "passed": true
+    },
+    {
+      "name": "Fullscreen maximizes diagram and initially hides panels",
+      "passed": true,
+      "details": {
+        "width": 1680,
+        "height": 1050,
+        "workspace": {
+          "x": 0,
+          "y": 0,
+          "width": 1680,
+          "height": 1050
+        },
+        "canvas": {
+          "x": 0,
+          "y": 127.1875,
+          "width": 1680,
+          "height": 810.8125
+        },
+        "labelPixels": 10.103003740310669,
+        "panelsCollapsed": true,
+        "native": true
+      }
+    },
+    {
+      "name": "Explorer remains accessible in fullscreen",
+      "passed": true
+    },
+    {
+      "name": "Inspector remains accessible in fullscreen",
+      "passed": true
+    },
+    {
+      "name": "Escape exits fullscreen",
+      "passed": true
+    },
+    {
+      "name": "Leaving fullscreen restores previous panel state",
+      "passed": true,
+      "details": {
+        "before": {
+          "explorer": false,
+          "inspector": true
+        },
+        "after": {
+          "explorer": false,
+          "inspector": true
+        }
+      }
+    },
+    {
+      "name": "Fullscreen has a usable API-rejection fallback",
+      "passed": true
+    },
+    {
+      "name": "Responsive layout 1366x768",
+      "passed": true,
+      "details": {
+        "viewport": 1366,
+        "pageWidth": 1366,
+        "canvas": {
+          "width": 1118,
+          "height": 527
+        },
+        "scale": 0.35984253289382373,
+        "labelPixels": 6.47716623544693,
+        "fullscreenControl": {
+          "x": 1266.484375,
+          "y": 63,
+          "right": 1352,
+          "bottom": 97
+        }
+      }
+    },
+    {
+      "name": "Short-height laptop diagram uses available screen area",
+      "passed": true,
+      "details": {
+        "normal": {
+          "viewport": 1366,
+          "pageWidth": 1366,
+          "canvas": {
+            "width": 1118,
+            "height": 527
+          },
+          "scale": 0.35984253289382373,
+          "labelPixels": 6.47716623544693,
+          "fullscreenControl": {
+            "x": 1266.484375,
+            "y": 63,
+            "right": 1352,
+            "bottom": 97
+          }
+        },
+        "fullscreen": {
+          "canvas": {
+            "width": 1366,
+            "height": 585
+          },
+          "scale": 0.40100795085800867,
+          "labelPixels": 7.218143105506897,
+          "fullscreen": true
+        },
+        "layout": "Themed regions use uniform gutters"
+      }
+    },
+    {
+      "name": "Loop remains inspectable in grouped context at 1366px",
+      "passed": true
+    },
+    {
+      "name": "Responsive layout 390x844",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "pageWidth": 390,
+        "canvas": {
+          "width": 390,
+          "height": 373.40625
+        },
+        "scale": 0.17926356589147288,
+        "labelPixels": 3.2267446517944336,
+        "fullscreenControl": {
+          "x": 244.0625,
+          "y": 184.09375,
+          "right": 319.984375,
+          "bottom": 218.09375
+        }
+      }
+    },
+    {
+      "name": "Loop remains inspectable in grouped context at 390px",
+      "passed": true
+    },
+    {
+      "name": "Runtime JavaScript exceptions",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Scientific model data and file unchanged during presentation QA",
+      "passed": true
+    }
+  ],
+  "diagnostics": {
+    "initialStructure": {
+      "nodes": 35,
+      "edges": 77,
+      "loops": 10,
+      "renderedEdges": 77,
+      "renderedNodes": 35,
+      "mode": "overview",
+      "geometry": {
+        "routes": 77,
+        "kinds": {
+          "cubic": 55,
+          "rounded-visibility": 22
+        },
+        "nodeCrossings": [],
+        "obstacleCrossings": [],
+        "maximumBends": 5,
+        "totalSamples": 7547
+      },
+      "loopChecks": [
+        {
+          "id": "R1",
+          "closed": true,
+          "computedType": "R",
+          "declaredType": "R"
+        },
+        {
+          "id": "R2",
+          "closed": true,
+          "computedType": "R",
+          "declaredType": "R"
+        },
+        {
+          "id": "R3",
+          "closed": true,
+          "computedType": "R",
+          "declaredType": "R"
+        },
+        {
+          "id": "R4",
+          "closed": true,
+          "computedType": "R",
+          "declaredType": "R"
+        },
+        {
+          "id": "R5",
+          "closed": true,
+          "computedType": "R",
+          "declaredType": "R"
+        },
+        {
+          "id": "B1",
+          "closed": true,
+          "computedType": "B",
+          "declaredType": "B"
+        },
+        {
+          "id": "B2",
+          "closed": true,
+          "computedType": "B",
+          "declaredType": "B"
+        },
+        {
+          "id": "B3",
+          "closed": true,
+          "computedType": "B",
+          "declaredType": "B"
+        },
+        {
+          "id": "B4",
+          "closed": true,
+          "computedType": "B",
+          "declaredType": "B"
+        },
+        {
+          "id": "B5",
+          "closed": true,
+          "computedType": "B",
+          "declaredType": "B"
+        }
+      ],
+      "missingAnchors": [],
+      "missingEndpoints": []
+    },
+    "overviewGeometry": {
+      "overlaps": [],
+      "relativePositionIssues": [],
+      "groupTranslations": {
+        "governance": {
+          "x": 0,
+          "y": 0
+        },
+        "housing": {
+          "x": 0,
+          "y": -30
+        },
+        "mobility": {
+          "x": 0,
+          "y": -20
+        },
+        "place": {
+          "x": 0,
+          "y": -60
+        },
+        "health": {
+          "x": 0,
+          "y": -120
+        }
+      },
+      "regionGaps": [
+        {
+          "from": "governance",
+          "to": "housing",
+          "axis": "y",
+          "gap": 96
+        },
+        {
+          "from": "housing",
+          "to": "mobility",
+          "axis": "y",
+          "gap": 96
+        },
+        {
+          "from": "mobility",
+          "to": "place",
+          "axis": "y",
+          "gap": 96
+        },
+        {
+          "from": "place",
+          "to": "health",
+          "axis": "y",
+          "gap": 96
+        },
+        {
+          "from": "housing",
+          "to": "equity",
+          "axis": "x",
+          "gap": 96
+        },
+        {
+          "from": "mobility",
+          "to": "equity",
+          "axis": "x",
+          "gap": 96
+        }
+      ],
+      "alignmentIssues": [],
+      "regions": [
+        {
+          "id": "governance",
+          "x": 24,
+          "y": 78,
+          "w": 1552,
+          "h": 144,
+          "heading": "RESOURCES & GOVERNANCE"
+        },
+        {
+          "id": "housing",
+          "x": 24,
+          "y": 318,
+          "w": 1552,
+          "h": 364,
+          "heading": "HOUSING & DISPLACEMENT"
+        },
+        {
+          "id": "mobility",
+          "x": 24,
+          "y": 778,
+          "w": 1552,
+          "h": 144,
+          "heading": "ACCESS & MOBILITY"
+        },
+        {
+          "id": "place",
+          "x": 24,
+          "y": 1018,
+          "w": 1552,
+          "h": 144,
+          "heading": "SHARED PLACES & SAFETY"
+        },
+        {
+          "id": "health",
+          "x": 24,
+          "y": 1258,
+          "w": 1900,
+          "h": 144,
+          "heading": "EXPOSURE & HEALTH"
+        },
+        {
+          "id": "equity",
+          "x": 1672,
+          "y": 318,
+          "w": 252,
+          "h": 604,
+          "heading": "BETWEEN-GROUP OUTCOMES"
+        }
+      ],
+      "regionOverlaps": [],
+      "containmentIssues": [],
+      "headingIssues": [],
+      "pathIssues": [],
+      "crossings": [],
+      "titleCrossings": [],
+      "labelIssues": [],
+      "endpointIssues": [],
+      "minimumLabelContrast": 13.201057488715328,
+      "minimumLabelFontSize": 18
+    },
+    "fullscreen": {
+      "width": 1680,
+      "height": 1050,
+      "workspace": {
+        "x": 0,
+        "y": 0,
+        "width": 1680,
+        "height": 1050
+      },
+      "canvas": {
+        "x": 0,
+        "y": 127.1875,
+        "width": 1680,
+        "height": 810.8125
+      },
+      "labelPixels": 10.103003740310669,
+      "panelsCollapsed": true,
+      "native": true
+    },
+    "laptop1366x768": {
+      "normal": {
+        "viewport": 1366,
+        "pageWidth": 1366,
+        "canvas": {
+          "width": 1118,
+          "height": 527
+        },
+        "scale": 0.35984253289382373,
+        "labelPixels": 6.47716623544693,
+        "fullscreenControl": {
+          "x": 1266.484375,
+          "y": 63,
+          "right": 1352,
+          "bottom": 97
+        }
+      },
+      "fullscreen": {
+        "canvas": {
+          "width": 1366,
+          "height": 585
+        },
+        "scale": 0.40100795085800867,
+        "labelPixels": 7.218143105506897,
+        "fullscreen": true
+      }
+    },
+    "finalViewState": {
+      "mode": "overview",
+      "focusedLoop": "B5",
+      "selectedType": "loop",
+      "selectedId": "B5",
+      "scale": 0.4534313725490196,
+      "explorerOpen": false,
+      "inspectorOpen": true,
+      "fullscreen": false,
+      "autoFit": true
+    }
+  },
+  "screenshots": [
+    "overview_1680.png",
+    "isolated_loop_r3.png",
+    "fullscreen_system.png",
+    "overview_1366.png",
+    "fullscreen_1366.png",
+    "loop_1366.png",
+    "overview_390.png",
+    "loop_390.png"
+  ],
+  "limitations": "Browser interaction and presentation checks; not empirical causal validation. Fullscreen is checked in headless Chrome, with a simulated API rejection for the fallback.",
+  "passed": true,
+  "failedChecks": []
+}
