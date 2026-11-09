@@ -1,0 +1,2134 @@
+{
+  "date": "2026-11-03",
+  "baselineVersion": "2026-10-20.1",
+  "modelVersion": "2026-11-03.1",
+  "scope": "All 35 variable definitions, all 78 original links, two added definitional links, and all 10 highlighted loop paths reviewed for semantics and structure. Review-level evidence was checked at the cited passages; underlying primary studies were not independently reappraised.",
+  "judgment": "The original highlighted cycles close and have correct sign parity. This does not establish the validity of all variable constructs, causal directions or complete feedback mechanisms.",
+  "limits": [
+    "This review is not independent human expert approval or a systematic reassessment of all underlying studies.",
+    "New operational definitions are proposed research-design choices requiring stakeholder agreement and measurement validation.",
+    "No empirical effect sizes, relative strengths, simulated trajectories or dominant loops are claimed."
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "issue": "Mixed units in household resources and housing prices",
+      "action": "Separate disposable income, monthly market rents and actual payment burden; rental-tenure restrictions are explicit.",
+      "items": [
+        "V01",
+        "V08",
+        "V09",
+        "V12",
+        "E20",
+        "E24",
+        "E79",
+        "E80"
+      ]
+    },
+    {
+      "id": "F2",
+      "issue": "Physical activity was broader than traffic exposure",
+      "action": "Use active-travel time and active-travel injury incidence; distinguish per-resident incidence from hazard per unit exposure.",
+      "items": [
+        "V21",
+        "V22",
+        "E46",
+        "E54",
+        "B5"
+      ]
+    },
+    {
+      "id": "F3",
+      "issue": "Some direct arrows lacked a distinct or well-supported mechanism",
+      "action": "Retire generic voice-to-protection, the unspecified displacement shortcut and the unsupported mental-health-to-work direction.",
+      "items": [
+        "E11",
+        "E26",
+        "E69"
+      ]
+    },
+    {
+      "id": "F4",
+      "issue": "A vector of needs gaps has no single signed direction",
+      "action": "Propose an any-unmet-need prevalence gap with explicit thresholds and overlap conditions; preserve domain-specific reporting.",
+      "items": [
+        "V33",
+        "E70",
+        "E71",
+        "E72",
+        "E73",
+        "E74",
+        "E75",
+        "E76"
+      ]
+    },
+    {
+      "id": "F5",
+      "issue": "Health disparity and normative inequity were conflated",
+      "action": "Specify poor-self-rated-health prevalence gap; mark morbidity-to-self-rating as a hypothesis and fairness as a separate judgment.",
+      "items": [
+        "V34",
+        "E15",
+        "E77",
+        "E78",
+        "A35"
+      ]
+    },
+    {
+      "id": "F6",
+      "issue": "Population and attribute mappings were easy to overread",
+      "action": "Flag priority-to-neighborhood voice/traffic mappings, cooling attributes and sector allocation conditions.",
+      "items": [
+        "E03",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10",
+        "E45",
+        "E56"
+      ]
+    },
+    {
+      "id": "F7",
+      "issue": "A source locator understated the available productivity discussion",
+      "action": "Point A34 to S6 Section 6.4 pp.22–23; distinguish productivity costs from employment and household-income feedback.",
+      "items": [
+        "A34",
+        "E67",
+        "E68",
+        "R5"
+      ]
+    },
+    {
+      "id": "F8",
+      "issue": "All highlighted loops could appear equally established",
+      "action": "Show evidence categories and review notes on loop cards and detail panels; policy and exploratory loops remain hypotheses.",
+      "items": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "V01",
+      "decision": "clarified",
+      "reason": "Separate disposable income from assets; cost-burden denominators must have a consistent time unit.",
+      "changes": {
+        "label": {
+          "before": "Household financial resources",
+          "after": "Household disposable income"
+        },
+        "measurementNote": {
+          "before": null,
+          "after": "Currency per household per month; compare the same households and household-size definition."
+        },
+        "definition": {
+          "before": "Income and material resources available to priority-group households before housing and energy costs. Distinct from neighborhood-average wealth.",
+          "after": "Priority households' income after taxes and transfers, before housing and household energy payments. Assess change for the same households; neighborhood compositional change is V35. Assets and borrowing are contextual buffers, not part of this income flow."
+        }
+      }
+    },
+    {
+      "id": "V02",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Effective collective influence over local decisions; neighborhood level. Original residents and affluent newcomers may have different influence."
+        }
+      }
+    },
+    {
+      "id": "V03",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Realized neighborhood public expenditure per period; hold sector allocation fixed for each intervention arrow."
+        }
+      }
+    },
+    {
+      "id": "V04",
+      "decision": "clarified",
+      "reason": "Separate institutional response effort from the spending and effective protections it may produce.",
+      "changes": {
+        "label": {
+          "before": "Equity policy response",
+          "after": "Equity-focused policy effort"
+        },
+        "measurementNote": {
+          "before": null,
+          "after": "Institutional priority and implementation effort; an ordinal construct requiring local stakeholder definition."
+        },
+        "definition": {
+          "before": "Implemented response to monitored inequities, including resourcing and enforcement. An explicitly conditional institutional response, not an automatic reaction.",
+          "after": "Institutional effort to prioritize and enact equity-oriented measures in response to monitored needs or health gaps. Distinct from realized spending (V03) and effective housing protections (V05). Detection, mandate, political willingness and implementation are required."
+        }
+      }
+    },
+    {
+      "id": "V05",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Effective coverage and enforceability of protections for priority households; assess provision and protection separately in an empirical model."
+        }
+      }
+    },
+    {
+      "id": "V35",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Neighborhood socioeconomic composition, using a prespecified resource-based classification; not the income change of incumbent households."
+        }
+      }
+    },
+    {
+      "id": "V06",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Prespecified housing-condition assessment for homes occupied by priority residents; higher means healthier conditions."
+        }
+      }
+    },
+    {
+      "id": "V07",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Useful thermal service per unit of delivered energy, at fixed comfort, floor area and ventilation."
+        }
+      }
+    },
+    {
+      "id": "V09",
+      "decision": "clarified",
+      "reason": "Use the same income-flow denominator as housing burden; identify the positive-income boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Household required-energy-payment/income ratio, then a prespecified population summary; positive-income domain."
+        },
+        "definition": {
+          "before": "Required household energy expenditure relative to resources, excluding rent or mortgage payments; higher means greater financial strain.",
+          "after": "Required household energy expenditure divided by the same household's disposable income over the same period, excluding rent or mortgage payments. Household changes are evaluated before aggregation; zero or negative incomes require separate hardship reporting."
+        }
+      }
+    },
+    {
+      "id": "V08",
+      "decision": "clarified",
+      "reason": "Use disposable income as the denominator and distinguish tenure payments from asset prices.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Household tenure-payment/income ratio, then a prespecified population summary; positive-income domain."
+        },
+        "definition": {
+          "before": "Rent or mortgage and mandatory tenure costs relative to priority household resources; excludes the separately modeled household energy burden.",
+          "after": "Rent or mortgage payments and mandatory tenure charges divided by the same household's disposable income over the same period; excludes household energy payments. Evaluate a prespecified household-level distribution, not the ratio of unrelated group averages."
+        }
+      }
+    },
+    {
+      "id": "V12",
+      "decision": "clarified",
+      "reason": "Rent is a recurring payment; property purchase price is an asset value. Keep a single market variable and state the renter boundary.",
+      "changes": {
+        "label": {
+          "before": "Local housing costs",
+          "after": "Local market rent level"
+        },
+        "measurementNote": {
+          "before": null,
+          "after": "Currency per month for a comparable rental dwelling; a market measure, not incumbent rent for every tenure."
+        },
+        "definition": {
+          "before": "Local rents and purchase prices faced by entrants and renewing residents; price increases do not imply existing residents become wealthier.",
+          "after": "Quality-adjusted monthly market rent for comparable dwellings in the focal neighborhood. Actual payments change only for market-exposed tenancies or on a move or renewal. This variable does not represent property asset values or existing fixed mortgage payments."
+        }
+      }
+    },
+    {
+      "id": "V13",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Intensity of market upgrading and replacement pressure; do not define it using the same rent series as V12."
+        }
+      }
+    },
+    {
+      "id": "V10",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Share of priority residents experiencing threatened housing loss or unstable tenure over a fixed period."
+        }
+      }
+    },
+    {
+      "id": "V11",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Involuntary residential moves per original priority resident per year; follow displaced residents outside the neighborhood."
+        }
+      }
+    },
+    {
+      "id": "V18",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Reachable complementary everyday destinations within a fixed walking network distance; density alone is insufficient."
+        }
+      }
+    },
+    {
+      "id": "V16",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Share of priority residents whose essential journeys are served by affordable, accessible and reliable transit."
+        }
+      }
+    },
+    {
+      "id": "V17",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Coverage of usable walking/cycling routes meeting a prespecified safe-design criterion."
+        }
+      }
+    },
+    {
+      "id": "V21",
+      "decision": "clarified",
+      "reason": "Other physical activity does not necessarily expose people to road traffic; use a transport-specific exposure measure.",
+      "changes": {
+        "label": {
+          "before": "Active travel and physical activity",
+          "after": "Active-travel time"
+        },
+        "measurementNote": {
+          "before": null,
+          "after": "Walking/cycling transport minutes per priority resident per week."
+        },
+        "definition": {
+          "before": "Walking, cycling and other physical activity among priority residents; benefits depend on access, safety and exposure conditions.",
+          "after": "Walking and cycling time for everyday transport per priority resident, including walking to public transport. Excludes gym exercise and purely recreational activity. Population coverage, trip purposes and reporting period are fixed."
+        }
+      }
+    },
+    {
+      "id": "V19",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Private motorized travel per priority resident for essential journeys; assess trip length, occupancy and alternatives."
+        }
+      }
+    },
+    {
+      "id": "V20",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Vehicle flow per period on the relevant street network, with network boundary fixed."
+        }
+      }
+    },
+    {
+      "id": "V14",
+      "decision": "clarified",
+      "reason": "Aesthetic maintenance, cooling vegetation and usable access are not interchangeable; identify the restricted green-space construct.",
+      "changes": {
+        "label": {
+          "before": "Green and public-space quality",
+          "after": "Usable green-space quality"
+        },
+        "measurementNote": {
+          "before": null,
+          "after": "Locally specified green-space condition and usability assessment; do not treat this as a canopy or cooling measure."
+        },
+        "definition": {
+          "before": "Maintained, welcoming and effectively accessible shared green/public spaces for priority residents, rather than green acreage alone.",
+          "after": "Condition and usability of shared green spaces serving priority residents, including maintenance, welcoming design and effective access. Canopy and shade are separate attributes: a quality improvement has a cooling effect only when it improves those attributes at places people use."
+        }
+      }
+    },
+    {
+      "id": "V15",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Share of priority residents able to obtain prespecified essential services within affordable time and money budgets."
+        }
+      }
+    },
+    {
+      "id": "V28",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Inclusive trust and mutual support among the original priority-resident network; a validated local survey is needed."
+        }
+      }
+    },
+    {
+      "id": "V26",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Prespecified assessment of physical neglect and disorder; exclude demographic identity as an indicator."
+        }
+      }
+    },
+    {
+      "id": "V27",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Perceived safety when using local streets and shared places; measure crime and traffic components separately for empirical work."
+        }
+      }
+    },
+    {
+      "id": "V22",
+      "decision": "clarified",
+      "reason": "Distinguish injury incidence per resident from risk per trip; changes in time exposed and per-unit-time danger are different mechanisms.",
+      "changes": {
+        "label": {
+          "before": "Traffic injury risk",
+          "after": "Active-travel injury incidence"
+        },
+        "measurementNote": {
+          "before": null,
+          "after": "Active-travel road injuries per 100,000 priority residents per year; fix reporting completeness."
+        },
+        "definition": {
+          "before": "Population-level injury risk to priority residents from road traffic; not risk per walking trip. More exposure can raise injuries in unsafe conditions.",
+          "after": "Road-traffic injuries sustained while walking or cycling for transport per priority resident per year. This is a population incidence measure, not injury risk per trip or per kilometer, and excludes car-occupant-only injuries."
+        }
+      }
+    },
+    {
+      "id": "V23",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Time-weighted exposure to a prespecified harmful pollutant; do not average incomparable pollutants into an undefined scale."
+        }
+      }
+    },
+    {
+      "id": "V24",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Personal or residential exposure to a prespecified environmental noise metric and period."
+        }
+      }
+    },
+    {
+      "id": "V25",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Person-hours above a prespecified harmful-heat threshold, accounting for indoor/outdoor exposure."
+        }
+      }
+    },
+    {
+      "id": "V29",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Persistent stress among priority residents using an appropriate survey instrument; no diagnostic inference."
+        }
+      }
+    },
+    {
+      "id": "V30",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Physical morbidity or functional limitation using a prespecified population measure; not an unspecified disease sum."
+        }
+      }
+    },
+    {
+      "id": "V31",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Adverse mental health using a prespecified population measure; distinct from stress and not an individual diagnosis."
+        }
+      }
+    },
+    {
+      "id": "V32",
+      "decision": "retained with measurement note",
+      "reason": "No definite directional naming error identified; retain as a conceptual construct with the recorded measurement boundary.",
+      "changes": {
+        "measurementNote": {
+          "before": null,
+          "after": "Paid-work participation among working-age priority residents; distinguish hours, employment and productivity in future measurement."
+        }
+      }
+    },
+    {
+      "id": "V33",
+      "decision": "clarified",
+      "reason": "An unordered vector of five needs gaps has no single increase or decrease. Propose one explicit scalar while retaining domain-specific reporting.",
+      "changes": {
+        "label": {
+          "before": "Unmet-needs disparity",
+          "after": "Unmet-needs prevalence gap"
+        },
+        "measurementNote": {
+          "before": null,
+          "after": "100 × [P(at least one unmet need | priority) − P(at least one unmet need | reference)]. Thresholds and membership fixed; no domain weights."
+        },
+        "definition": {
+          "before": "Excess unmet built-environment needs among priority groups relative to a locally defined, better-served reference group. Higher means less equity. A conceptual set of domain-specific gaps, with no invented weighting or scalar score.",
+          "after": "Percentage-point difference between priority and reference groups in the share of residents with at least one prespecified unmet built-environment need. Use locally agreed, group-appropriate thresholds for the five stated domains. This proposed non-compensatory indicator is not a validated scale; report each domain alongside it. A positive gap indicates priority-group disadvantage."
+        }
+      }
+    },
+    {
+      "id": "V34",
+      "decision": "clarified",
+      "reason": "Separate a measurable health disparity from a normative judgment of inequity; choose one outcome rather than an undefined physical/mental composite.",
+      "changes": {
+        "label": {
+          "before": "Health inequity",
+          "after": "Poor-health prevalence gap"
+        },
+        "measurementNote": {
+          "before": null,
+          "after": "100 × [P(poor self-rated health | priority) − P(poor self-rated health | reference)]. Prespecify response categories and any age standardization."
+        },
+        "definition": {
+          "before": "Unfair, avoidable excess physical and mental ill health among priority groups relative to the local reference group; health inequality requires normative assessment to call it inequity.",
+          "after": "Percentage-point difference between priority and reference groups in the prevalence of poor self-rated health, using the same prespecified survey definition and period. A positive gap indicates priority-group disadvantage. Interpreting it as inequity additionally requires an assessment of unfairness and avoidability; physical or mental morbidity does not mechanically determine self-rating."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "E01",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A01"
+      ],
+      "scope": "Neighborhood composition; not an effect of prices on incumbent income.",
+      "changes": {}
+    },
+    {
+      "id": "E02",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A01",
+        "A25"
+      ],
+      "scope": "Allocation may favor already influential groups; investment is not intrinsically equitable.",
+      "changes": {}
+    },
+    {
+      "id": "E03",
+      "decision": "revised",
+      "reason": "A neighborhood mechanism is mapped from priority-group stress to aggregate voice; this cross-level inference needs an explicit condition.",
+      "status": "synthesis",
+      "evidence": [
+        "A02"
+      ],
+      "scope": "CROSS-LEVEL CONDITION: priority residents form a material part of the neighborhood organizing base. Stress in a politically excluded minority need not change aggregate influence. S1 describes neighborhood stress, not this group-specific estimate.",
+      "changes": {
+        "status": {
+          "before": "reported",
+          "after": "synthesis"
+        },
+        "scope": {
+          "before": "Aggregate influence falls only where stressed priority residents form the relevant organizing base; influential newcomers can weaken this link.",
+          "after": "CROSS-LEVEL CONDITION: priority residents form a material part of the neighborhood organizing base. Stress in a politically excluded minority need not change aggregate influence. S1 describes neighborhood stress, not this group-specific estimate."
+        }
+      }
+    },
+    {
+      "id": "E04",
+      "decision": "revised",
+      "reason": "After separating income from wealth, make the income-buffer mechanism explicit.",
+      "status": "reported",
+      "evidence": [
+        "A02"
+      ],
+      "scope": "Income-flow pathway only; assets, debt and social protection can buffer strain independently.",
+      "changes": {
+        "rationale": {
+          "before": "Greater household resources can buffer persistent financial and residential strain.",
+          "after": "Higher disposable income can reduce financial strain and associated chronic stress, with housing and energy payments held fixed."
+        },
+        "scope": {
+          "before": "",
+          "after": "Income-flow pathway only; assets, debt and social protection can buffer strain independently."
+        }
+      }
+    },
+    {
+      "id": "E05",
+      "decision": "revised",
+      "reason": "An aggregate investment variable cannot increase all sector outputs under arbitrary reallocations; state the marginal-allocation condition.",
+      "status": "synthesis",
+      "evidence": [
+        "A01",
+        "A25"
+      ],
+      "scope": "Assumes implementation, maintenance and effective priority-group access. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed.",
+      "changes": {
+        "scope": {
+          "before": "Assumes implementation, maintenance and effective priority-group access.",
+          "after": "Assumes implementation, maintenance and effective priority-group access. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed."
+        }
+      }
+    },
+    {
+      "id": "E06",
+      "decision": "revised",
+      "reason": "An aggregate investment variable cannot increase all sector outputs under arbitrary reallocations; state the marginal-allocation condition.",
+      "status": "synthesis",
+      "evidence": [
+        "A01",
+        "A12"
+      ],
+      "scope": "Provision must address actual access barriers, not facility counts alone. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed.",
+      "changes": {
+        "scope": {
+          "before": "Provision must address actual access barriers, not facility counts alone.",
+          "after": "Provision must address actual access barriers, not facility counts alone. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed."
+        }
+      }
+    },
+    {
+      "id": "E07",
+      "decision": "revised",
+      "reason": "An aggregate investment variable cannot increase all sector outputs under arbitrary reallocations; state the marginal-allocation condition.",
+      "status": "policy",
+      "evidence": [
+        "A16",
+        "A25",
+        "A30"
+      ],
+      "scope": "Requires inclusive service design and operating support. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed.",
+      "changes": {
+        "scope": {
+          "before": "Requires inclusive service design and operating support.",
+          "after": "Requires inclusive service design and operating support. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed."
+        }
+      }
+    },
+    {
+      "id": "E08",
+      "decision": "revised",
+      "reason": "An aggregate investment variable cannot increase all sector outputs under arbitrary reallocations; state the marginal-allocation condition.",
+      "status": "policy",
+      "evidence": [
+        "A13",
+        "A25",
+        "A32"
+      ],
+      "scope": "SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed.",
+      "changes": {
+        "scope": {
+          "before": "",
+          "after": "SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed."
+        }
+      }
+    },
+    {
+      "id": "E09",
+      "decision": "revised",
+      "reason": "An aggregate investment variable cannot increase all sector outputs under arbitrary reallocations; state the marginal-allocation condition.",
+      "status": "policy",
+      "evidence": [
+        "A23",
+        "A25"
+      ],
+      "scope": "Assumes quality gains reach original priority residents and preserve affordability. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed.",
+      "changes": {
+        "scope": {
+          "before": "Assumes quality gains reach original priority residents and preserve affordability.",
+          "after": "Assumes quality gains reach original priority residents and preserve affordability. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed."
+        }
+      }
+    },
+    {
+      "id": "E10",
+      "decision": "revised",
+      "reason": "An aggregate investment variable cannot increase all sector outputs under arbitrary reallocations; state the marginal-allocation condition.",
+      "status": "policy",
+      "evidence": [
+        "A23",
+        "A26"
+      ],
+      "scope": "With appropriate ventilation, installation and financial support. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed.",
+      "changes": {
+        "scope": {
+          "before": "With appropriate ventilation, installation and financial support.",
+          "after": "With appropriate ventilation, installation and financial support. SECTOR CONDITION: the marginal spending reaches this intervention; total spending alone does not guarantee every sector receives more. No offsetting displacement of other local funding is assumed."
+        }
+      }
+    },
+    {
+      "id": "E11",
+      "decision": "retired",
+      "reason": "Generic neighborhood influence can favor affluent newcomers or exclusionary policies. The cited proposals for community-led affordable housing do not establish a positive V02→V05 relationship. Equity-specific action remains through V04→V05.",
+      "before": {
+        "id": "E11",
+        "source": "V02",
+        "target": "V05",
+        "polarity": 1,
+        "rationale": "Organized resident influence may help secure enforceable affordability and anti-displacement measures.",
+        "status": "policy",
+        "evidence": [
+          "A16",
+          "A26"
+        ],
+        "delay": true,
+        "scope": "Political translation is contingent, not guaranteed."
+      }
+    },
+    {
+      "id": "E12",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "policy",
+      "evidence": [
+        "A12",
+        "A25",
+        "A28"
+      ],
+      "scope": "Requires monitoring, mandate, budget, coordination and implementation.",
+      "changes": {}
+    },
+    {
+      "id": "E13",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "policy",
+      "evidence": [
+        "A25",
+        "A26"
+      ],
+      "scope": "This is a proposed intervention response, not an observed automatic feedback.",
+      "changes": {}
+    },
+    {
+      "id": "E14",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "policy",
+      "evidence": [
+        "A12",
+        "A28"
+      ],
+      "scope": "MODEL ASSUMPTION: institutions detect the gap and are willing and able to respond.",
+      "changes": {}
+    },
+    {
+      "id": "E15",
+      "decision": "revised",
+      "reason": "A measured health gap does not itself establish unfairness or an institutional response.",
+      "status": "policy",
+      "evidence": [
+        "A16",
+        "A28"
+      ],
+      "scope": "POLICY ASSUMPTION: the positive gap is detected, assessed as inequitable and acted on. Surveillance, mandate and political willingness are required; response is not automatic.",
+      "changes": {
+        "rationale": {
+          "before": "Recognized unfair health gaps may increase the case for equity-oriented intervention.",
+          "after": "A detected poor-self-rated-health gap judged unfair and avoidable may increase equity-focused policy effort."
+        },
+        "scope": {
+          "before": "MODEL ASSUMPTION: evidence is translated into action; politics can weaken or block this link.",
+          "after": "POLICY ASSUMPTION: the positive gap is detected, assessed as inequitable and acted on. Surveillance, mandate and political willingness are required; response is not automatic."
+        }
+      }
+    },
+    {
+      "id": "E16",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "policy",
+      "evidence": [
+        "A13",
+        "A32"
+      ],
+      "scope": "MODEL ASSUMPTION: surveillance identifies the burden and decision makers act.",
+      "changes": {}
+    },
+    {
+      "id": "E17",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "policy",
+      "evidence": [
+        "A26"
+      ],
+      "scope": "Refers to realized protective coverage, not any policy bearing an affordability label.",
+      "changes": {}
+    },
+    {
+      "id": "E18",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "policy",
+      "evidence": [
+        "A24",
+        "A26"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E19",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "policy",
+      "evidence": [
+        "A26"
+      ],
+      "scope": "Coverage, enforcement, eligibility and housing supply matter.",
+      "changes": {}
+    },
+    {
+      "id": "E20",
+      "decision": "revised",
+      "reason": "Avoid silently mapping priority-household improvements to all neighborhood market prices.",
+      "status": "synthesis",
+      "evidence": [
+        "A03"
+      ],
+      "scope": "Market capitalization applies to exposed rental units in the affected segment; upgrades confined to permanently protected housing need not raise local market rent.",
+      "changes": {
+        "rationale": {
+          "before": "Improved dwellings may become more desirable and command higher market costs.",
+          "after": "Housing-condition improvements can command higher market rents when they change comparable rental supply or market valuations."
+        },
+        "status": {
+          "before": "reported",
+          "after": "synthesis"
+        },
+        "scope": {
+          "before": "Market capitalization is weaker where affordability is permanently protected.",
+          "after": "Market capitalization applies to exposed rental units in the affected segment; upgrades confined to permanently protected housing need not raise local market rent."
+        }
+      }
+    },
+    {
+      "id": "E21",
+      "decision": "revised",
+      "reason": "Use rent capitalization within a defined rental market.",
+      "status": "reported",
+      "evidence": [
+        "A03",
+        "A22"
+      ],
+      "scope": "Conditional on demand, supply and rental-market institutions. A privately enjoyed or inaccessible improvement may not affect rents for the relevant comparison dwellings.",
+      "changes": {
+        "rationale": {
+          "before": "Better shared green amenities can increase nearby housing demand and market costs.",
+          "after": "More attractive usable green amenities may increase nearby rental demand and market rents."
+        },
+        "scope": {
+          "before": "Contextual capitalization; benefits can be retained with safeguards.",
+          "after": "Conditional on demand, supply and rental-market institutions. A privately enjoyed or inaccessible improvement may not affect rents for the relevant comparison dwellings."
+        }
+      }
+    },
+    {
+      "id": "E22",
+      "decision": "revised",
+      "reason": "A service affordability improvement is not necessarily a market-valued amenity upgrade.",
+      "status": "synthesis",
+      "evidence": [
+        "A03"
+      ],
+      "scope": "A synthesis bridge: price capitalization concerns market-valued amenity changes. A service subsidy or accessibility-only adjustment need not raise rent.",
+      "changes": {
+        "rationale": {
+          "before": "Market-valued amenity improvements accompanying better effective access may raise housing costs.",
+          "after": "Market-valued amenity improvements accompanying better effective service access may increase local market rents."
+        },
+        "scope": {
+          "before": "Only where effective access accompanies market-valued amenity improvements. Affordability-only or accessibility-only changes need not raise prices.",
+          "after": "A synthesis bridge: price capitalization concerns market-valued amenity changes. A service subsidy or accessibility-only adjustment need not raise rent."
+        }
+      }
+    },
+    {
+      "id": "E23",
+      "decision": "revised",
+      "reason": "Specify rental-entry sorting while keeping incumbent income separate.",
+      "status": "reported",
+      "evidence": [
+        "A04"
+      ],
+      "scope": "Composition changes through entry, exit and renewal; original residents do not become richer by definition. Protected tenancies and a large owner-occupied sector weaken the neighborhood-level effect.",
+      "changes": {
+        "rationale": {
+          "before": "Higher entry and retention costs can select a wealthier neighborhood resident composition.",
+          "after": "Higher rental entry and renewal costs can select a more affluent resident composition over time."
+        },
+        "scope": {
+          "before": "COMPOSITIONAL SORTING ONLY: original residents are not assumed to gain income; protections can interrupt sorting.",
+          "after": "Composition changes through entry, exit and renewal; original residents do not become richer by definition. Protected tenancies and a large owner-occupied sector weaken the neighborhood-level effect."
+        }
+      }
+    },
+    {
+      "id": "E24",
+      "decision": "revised",
+      "reason": "Market rent and paid rent differ; do not treat property appreciation as a payment increase.",
+      "status": "reported",
+      "evidence": [
+        "A18"
+      ],
+      "scope": "Exposed new or renewing tenancies only; no automatic effect on protected renters, owners without mortgages or fixed mortgage payments. Pass-through can be delayed.",
+      "changes": {
+        "rationale": {
+          "before": "At unchanged household resources, higher rents or tenure payments increase cost burden.",
+          "after": "Higher market rents raise the housing-payment burden of market-exposed renters when they affect paid rent, with disposable income fixed."
+        },
+        "delay": {
+          "before": false,
+          "after": true
+        },
+        "scope": {
+          "before": "Exposed renters and purchasers; not every owner-occupier or protected tenancy.",
+          "after": "Exposed new or renewing tenancies only; no automatic effect on protected renters, owners without mortgages or fixed mortgage payments. Pass-through can be delayed."
+        }
+      }
+    },
+    {
+      "id": "E25",
+      "decision": "revised",
+      "reason": "Narrow the price channel to rent and avoid a definitionally circular gentrification measure.",
+      "status": "reported",
+      "evidence": [
+        "A18",
+        "A21"
+      ],
+      "scope": "Gentrification pressure must be measured separately from the rent outcome; the relationship varies with supply, tenure and protections.",
+      "changes": {
+        "rationale": {
+          "before": "Market-led upgrading can increase rents and purchase prices.",
+          "after": "Market-led upgrading and stronger affluent rental demand can increase local market rents."
+        },
+        "scope": {
+          "before": "Magnitude and timing vary across markets and tenures.",
+          "after": "Gentrification pressure must be measured separately from the rent outcome; the relationship varies with supply, tenure and protections."
+        }
+      }
+    },
+    {
+      "id": "E26",
+      "decision": "retired",
+      "reason": "The model already represents the rent-mediated pathway V13→V12→V08→V11. No distinct direct eviction/redevelopment mechanism was specified for this additional arrow. Retire the shortcut without denying other displacement mechanisms.",
+      "before": {
+        "id": "E26",
+        "source": "V13",
+        "target": "V11",
+        "polarity": 1,
+        "rationale": "Neighborhood replacement processes may lead to forced moves among vulnerable original residents.",
+        "status": "association",
+        "evidence": [
+          "A06",
+          "A21"
+        ],
+        "delay": true,
+        "scope": "Displacement is possible, not inevitable; tenure safeguards moderate the link."
+      }
+    },
+    {
+      "id": "E27",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A20"
+      ],
+      "scope": "Effective affordable access can fall even when aggregate amenity counts rise.",
+      "changes": {}
+    },
+    {
+      "id": "E28",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "synthesis",
+      "evidence": [
+        "A18",
+        "A24"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E29",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A18"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E30",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A24"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E31",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A06",
+        "A18"
+      ],
+      "scope": "Conditional on resources, protections, arrears processes and available alternatives.",
+      "changes": {}
+    },
+    {
+      "id": "E32",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A06",
+        "A19"
+      ],
+      "scope": "Follows original residents rather than improved neighborhood-average composition.",
+      "changes": {}
+    },
+    {
+      "id": "E33",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "association",
+      "evidence": [
+        "A06",
+        "A19"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E34",
+      "decision": "revised",
+      "reason": "Clarify the purchasing-power bridge rather than treating all material resources as income.",
+      "status": "synthesis",
+      "evidence": [
+        "A22"
+      ],
+      "scope": "Model inference, not a separately established effect in S5. Discrimination, supply constraints, tenure and protected housing can interrupt the relationship.",
+      "changes": {
+        "rationale": {
+          "before": "Household resources expand the feasible set of healthy homes and maintenance choices.",
+          "after": "Higher disposable income can improve access to healthier housing where suitable supply is available."
+        },
+        "scope": {
+          "before": "Structural exclusion, market supply and discrimination may block this pathway.",
+          "after": "Model inference, not a separately established effect in S5. Discrimination, supply constraints, tenure and protected housing can interrupt the relationship."
+        }
+      }
+    },
+    {
+      "id": "E35",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A23"
+      ],
+      "scope": "Housing quality is multidimensional; no universal magnitude is asserted.",
+      "changes": {}
+    },
+    {
+      "id": "E36",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A23"
+      ],
+      "scope": "Assumes service needs, tariffs, ventilation and financing costs do not offset savings.",
+      "changes": {}
+    },
+    {
+      "id": "E37",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "synthesis",
+      "evidence": [
+        "A23"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E38",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A05",
+        "A08",
+        "A15"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E39",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A05"
+      ],
+      "scope": "Requires usable resident influence and maintenance opportunities.",
+      "changes": {}
+    },
+    {
+      "id": "E40",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A05"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E41",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A05",
+        "A10"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E42",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A05",
+        "A10"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E43",
+      "decision": "revised",
+      "reason": "Align the active-travel-time variable with trip purpose, frequency, duration and exposure pathways; greater feasibility or participation does not automatically mean more minutes.",
+      "status": "association",
+      "evidence": [
+        "A13",
+        "A33"
+      ],
+      "scope": "Transport activity only. Greater willingness must translate into additional active-travel time; essential journeys may persist even when people feel unsafe.",
+      "changes": {
+        "rationale": {
+          "before": "Perceived safety can increase willingness to walk, cycle and be active outdoors.",
+          "after": "Feeling safer can increase walking and cycling for transport when it changes participation or trip choices."
+        },
+        "scope": {
+          "before": "",
+          "after": "Transport activity only. Greater willingness must translate into additional active-travel time; essential journeys may persist even when people feel unsafe."
+        }
+      }
+    },
+    {
+      "id": "E44",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "association",
+      "evidence": [
+        "A08",
+        "A24"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E45",
+      "decision": "revised",
+      "reason": "Green-space condition is not canopy: downgrade this attribute-specific mapping.",
+      "status": "synthesis",
+      "evidence": [
+        "A09"
+      ],
+      "scope": "ATTRIBUTE CONDITION: added effective shade or cooling is required. Better lighting, tidiness, welcoming design or access alone has no necessary cooling effect. Climate and exposure location matter.",
+      "changes": {
+        "rationale": {
+          "before": "Vegetation and shade can reduce harmful heat experienced in shared places.",
+          "after": "Green-space improvements can lower heat exposure when they increase effective vegetation, shade or cooling at places priority residents use."
+        },
+        "status": {
+          "before": "reported",
+          "after": "synthesis"
+        },
+        "scope": {
+          "before": "Depends on actual canopy, design, use and local climate; public-space access is not a universal cooling proxy.",
+          "after": "ATTRIBUTE CONDITION: added effective shade or cooling is required. Better lighting, tidiness, welcoming design or access alone has no necessary cooling effect. Climate and exposure location matter."
+        }
+      }
+    },
+    {
+      "id": "E46",
+      "decision": "revised",
+      "reason": "Align the active-travel-time variable with trip purpose, frequency, duration and exposure pathways; greater feasibility or participation does not automatically mean more minutes.",
+      "status": "synthesis",
+      "evidence": [
+        "A11",
+        "A29"
+      ],
+      "scope": "ROUTE CONDITION: green space must serve practical journeys. An isolated park can increase recreation without increasing active travel. Additional participation must outweigh any reduction in walking/cycling trip time.",
+      "changes": {
+        "rationale": {
+          "before": "Accessible pleasant open spaces can support outdoor physical activity.",
+          "after": "Usable green corridors may support walking or cycling for transport when they connect everyday origins and destinations."
+        },
+        "evidence": {
+          "before": [
+            "A11",
+            "A24"
+          ],
+          "after": [
+            "A11",
+            "A29"
+          ]
+        },
+        "status": {
+          "before": "association",
+          "after": "synthesis"
+        },
+        "scope": {
+          "before": "",
+          "after": "ROUTE CONDITION: green space must serve practical journeys. An isolated park can increase recreation without increasing active travel. Additional participation must outweigh any reduction in walking/cycling trip time."
+        }
+      }
+    },
+    {
+      "id": "E47",
+      "decision": "revised",
+      "reason": "Align the active-travel-time variable with trip purpose, frequency, duration and exposure pathways; greater feasibility or participation does not automatically mean more minutes.",
+      "status": "synthesis",
+      "evidence": [
+        "A29"
+      ],
+      "scope": "TIME-AGGREGATION CONDITION: proximity also shortens trips. The positive link applies only where added participation or frequency outweighs shorter duration per trip. Walkability-to-mode-choice evidence does not establish a universal positive effect on minutes.",
+      "changes": {
+        "status": {
+          "before": "reported",
+          "after": "synthesis"
+        },
+        "rationale": {
+          "before": "Connected nearby destinations can make walking and active trips more feasible.",
+          "after": "Connected nearby destinations can increase active-travel time if more people or more trips switch to walking and cycling."
+        },
+        "scope": {
+          "before": "",
+          "after": "TIME-AGGREGATION CONDITION: proximity also shortens trips. The positive link applies only where added participation or frequency outweighs shorter duration per trip. Walkability-to-mode-choice evidence does not establish a universal positive effect on minutes."
+        }
+      }
+    },
+    {
+      "id": "E48",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A11",
+        "A29"
+      ],
+      "scope": "Mode substitution requires suitable services and feasible alternatives.",
+      "changes": {}
+    },
+    {
+      "id": "E49",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A10"
+      ],
+      "scope": "A contextual mechanism; density alone is not assigned a universal safety effect.",
+      "changes": {}
+    },
+    {
+      "id": "E50",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "synthesis",
+      "evidence": [
+        "A29",
+        "A30"
+      ],
+      "scope": "Assumes mode substitution rather than exclusively additional journeys.",
+      "changes": {}
+    },
+    {
+      "id": "E51",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A30"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E52",
+      "decision": "revised",
+      "reason": "Align the active-travel-time variable with trip purpose, frequency, duration and exposure pathways; greater feasibility or participation does not automatically mean more minutes.",
+      "status": "reported",
+      "evidence": [
+        "A13",
+        "A29",
+        "A32"
+      ],
+      "scope": "Safe routes must increase participation, journey frequency or duration enough to increase total active-travel time. Route shortening or substitution from other walking trips can yield little or no time change.",
+      "changes": {
+        "scope": {
+          "before": "",
+          "after": "Safe routes must increase participation, journey frequency or duration enough to increase total active-travel time. Route shortening or substitution from other walking trips can yield little or no time change."
+        }
+      }
+    },
+    {
+      "id": "E53",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A32"
+      ],
+      "scope": "At comparable travel exposure; induced activity is represented separately.",
+      "changes": {}
+    },
+    {
+      "id": "E54",
+      "decision": "revised",
+      "reason": "Make the exposure/incidence distinction explicit and separate the direct exposure path from net safety effects.",
+      "status": "association",
+      "evidence": [
+        "A32"
+      ],
+      "scope": "EXPOSURE CONDITION: hazard per unit of time, route mix and reporting stay fixed and hazard is nonzero. Incidence = exposure per resident × injury hazard per unit exposure. Safer routes and safety-in-numbers can lower hazard, so the net observed effect may be zero or negative. This is not a claim that exercise or cycling inherently worsens safety.",
+      "changes": {
+        "rationale": {
+          "before": "More time walking or cycling can increase exposure to road danger when infrastructure is unsafe.",
+          "after": "At unchanged injury hazard per unit of active-travel time, more walking/cycling transport exposure increases injuries per resident."
+        },
+        "scope": {
+          "before": "CONDITIONAL COUNTERPATH: population injury risk, not per-trip risk. Safety-in-numbers and safer infrastructure can weaken or reverse the net relationship.",
+          "after": "EXPOSURE CONDITION: hazard per unit of time, route mix and reporting stay fixed and hazard is nonzero. Incidence = exposure per resident × injury hazard per unit exposure. Safer routes and safety-in-numbers can lower hazard, so the net observed effect may be zero or negative. This is not a claim that exercise or cycling inherently worsens safety."
+        }
+      }
+    },
+    {
+      "id": "E55",
+      "decision": "revised",
+      "reason": "Actual injury incidence affects perception only through awareness; the two constructs are distinct.",
+      "status": "synthesis",
+      "evidence": [
+        "A13",
+        "A33"
+      ],
+      "scope": "Residents observe or learn of relevant active-travel injuries and update perceptions. Media coverage, near misses and crime affect perceived safety independently.",
+      "changes": {
+        "scope": {
+          "before": "Risk perception is not identical to objectively measured injury risk.",
+          "after": "Residents observe or learn of relevant active-travel injuries and update perceptions. Media coverage, near misses and crime affect perceived safety independently."
+        }
+      }
+    },
+    {
+      "id": "E56",
+      "decision": "revised",
+      "reason": "Group-level travel is not automatically a large share of neighborhood traffic.",
+      "status": "synthesis",
+      "evidence": [
+        "A31"
+      ],
+      "scope": "CROSS-LEVEL CONDITION: changed priority-group car trips use the modeled streets and are not offset by other travelers, route diversion, freight or induced traffic. Hold occupancy and trip distance explicit.",
+      "changes": {
+        "status": {
+          "before": "reported",
+          "after": "synthesis"
+        },
+        "scope": {
+          "before": "Traffic also reflects through journeys, occupancy and freight.",
+          "after": "CROSS-LEVEL CONDITION: changed priority-group car trips use the modeled streets and are not offset by other travelers, route diversion, freight or induced traffic. Hold occupancy and trip distance explicit."
+        }
+      }
+    },
+    {
+      "id": "E57",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A31"
+      ],
+      "scope": "Depends on fleet, dispersion, proximity, routes and other sources.",
+      "changes": {}
+    },
+    {
+      "id": "E58",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A14",
+        "A31"
+      ],
+      "scope": "Vehicle speeds, barriers, fleet and building design moderate exposure.",
+      "changes": {}
+    },
+    {
+      "id": "E59",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A32"
+      ],
+      "scope": "Road design, speed and pedestrian/cyclist exposure held in context.",
+      "changes": {}
+    },
+    {
+      "id": "E60",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A14",
+        "A31"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E61",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A14",
+        "A31"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E62",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A09",
+        "A14"
+      ],
+      "scope": "Vulnerability and access to cooling modify effects.",
+      "changes": {}
+    },
+    {
+      "id": "E63",
+      "decision": "revised",
+      "reason": "Align the active-travel-time variable with trip purpose, frequency, duration and exposure pathways; greater feasibility or participation does not automatically mean more minutes.",
+      "status": "reported",
+      "evidence": [
+        "A29"
+      ],
+      "scope": "Activity-mediated pathway, with pollution and injury pathways considered separately. Exposure intensity, baseline activity and substitution from other exercise matter; more travel minutes do not imply a net health gain in every setting.",
+      "changes": {
+        "rationale": {
+          "before": "Physical activity can reduce chronic physical disease risk.",
+          "after": "Physical activity accumulated through walking and cycling for transport can reduce chronic physical disease risk."
+        },
+        "scope": {
+          "before": "Not a promise of net benefit in every high-pollution or unsafe setting.",
+          "after": "Activity-mediated pathway, with pollution and injury pathways considered separately. Exposure intensity, baseline activity and substitution from other exercise matter; more travel minutes do not imply a net health gain in every setting."
+        }
+      }
+    },
+    {
+      "id": "E64",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "synthesis",
+      "evidence": [
+        "A14",
+        "A31"
+      ],
+      "scope": "A coarse synthesis, not a quantified stress–disease coefficient.",
+      "changes": {}
+    },
+    {
+      "id": "E65",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "synthesis",
+      "evidence": [
+        "A14",
+        "A19",
+        "A24"
+      ],
+      "scope": "Stress and clinical mental ill health are distinct constructs.",
+      "changes": {}
+    },
+    {
+      "id": "E66",
+      "decision": "retained conditionally",
+      "reason": "No definite sign inconsistency found within the stated scope; retain the recorded evidence status, not a claim of empirical causal validation.",
+      "status": "reported",
+      "evidence": [
+        "A19",
+        "A30"
+      ],
+      "scope": "",
+      "changes": {}
+    },
+    {
+      "id": "E67",
+      "decision": "revised",
+      "reason": "Correct the evidence location: S6 discusses productivity costs, but productivity is not identical to employment participation.",
+      "status": "synthesis",
+      "evidence": [
+        "A34"
+      ],
+      "scope": "EXPLORATORY BRIDGE: S6 Section 6.4 discusses absenteeism, disability and modeled productivity costs; it does not directly estimate the effect on employment participation. Job accommodation, labor demand and protections can interrupt the pathway.",
+      "changes": {
+        "rationale": {
+          "before": "Physical morbidity may reduce capacity to obtain and sustain paid work.",
+          "after": "Physical morbidity and functional limitations may reduce capacity to sustain paid work."
+        },
+        "scope": {
+          "before": "UNTESTED CLOSURE: the source identifies productivity as an evidence gap; disability inclusion, employment protections and illness severity matter.",
+          "after": "EXPLORATORY BRIDGE: S6 Section 6.4 discusses absenteeism, disability and modeled productivity costs; it does not directly estimate the effect on employment participation. Job accommodation, labor demand and protections can interrupt the pathway."
+        }
+      }
+    },
+    {
+      "id": "E68",
+      "decision": "revised",
+      "reason": "Disposable income can respond to work only after taxes and transfers; do not cite unemployment-distress as income evidence.",
+      "status": "synthesis",
+      "evidence": [
+        "A34"
+      ],
+      "scope": "MODEL ASSUMPTION: wages and hours are adequate and gains are not fully offset by taxes, transfer withdrawal or loss of other income. No automatic link to wealth or neighborhood composition.",
+      "changes": {
+        "rationale": {
+          "before": "Sustained paid work can increase household financial resources.",
+          "after": "More paid-work participation can increase household disposable income if net earnings rise."
+        },
+        "evidence": {
+          "before": [
+            "A16",
+            "A34"
+          ],
+          "after": [
+            "A34"
+          ]
+        },
+        "scope": {
+          "before": "MODEL ASSUMPTION: wage income is not fully offset by lost transfers or other expenses.",
+          "after": "MODEL ASSUMPTION: wages and hours are adequate and gains are not fully offset by taxes, transfer withdrawal or loss of other income. No automatic link to wealth or neighborhood composition."
+        }
+      }
+    },
+    {
+      "id": "E69",
+      "decision": "retired",
+      "reason": "The unemployment-to-distress discussion in A16 cannot establish the reverse mental-ill-health-to-work arrow. A34 is about broader productivity, not this specific effect. Retain as an external research question rather than an active link.",
+      "before": {
+        "id": "E69",
+        "source": "V31",
+        "target": "V32",
+        "polarity": -1,
+        "rationale": "Mental ill health may reduce sustainable work participation.",
+        "status": "synthesis",
+        "evidence": [
+          "A16",
+          "A34"
+        ],
+        "delay": true,
+        "scope": "UNTESTED CLOSURE: do not infer causality from the reviewed unemployment-to-distress association."
+      }
+    },
+    {
+      "id": "E70",
+      "decision": "revised",
+      "reason": "Adapt the distributional arrow to an explicit non-compensatory prevalence gap, including threshold and overlap conditions.",
+      "status": "indicator",
+      "evidence": [
+        "A12",
+        "A23"
+      ],
+      "scope": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "changes": {
+        "scope": {
+          "before": "CONDITIONAL ACCOUNTING: the priority group's change must exceed the reference group's change; needs are assessed relative to group-specific requirements. No scalar weights or effect sizes are assumed.",
+          "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+        }
+      }
+    },
+    {
+      "id": "E71",
+      "decision": "revised",
+      "reason": "Adapt the distributional arrow to an explicit non-compensatory prevalence gap, including threshold and overlap conditions.",
+      "status": "indicator",
+      "evidence": [
+        "A12",
+        "A20"
+      ],
+      "scope": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "changes": {
+        "scope": {
+          "before": "CONDITIONAL ACCOUNTING: the priority group's change must exceed the reference group's change; needs are assessed relative to group-specific requirements. No scalar weights or effect sizes are assumed.",
+          "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+        }
+      }
+    },
+    {
+      "id": "E72",
+      "decision": "revised",
+      "reason": "Adapt the distributional arrow to an explicit non-compensatory prevalence gap, including threshold and overlap conditions.",
+      "status": "indicator",
+      "evidence": [
+        "A12",
+        "A16",
+        "A30"
+      ],
+      "scope": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "changes": {
+        "scope": {
+          "before": "CONDITIONAL ACCOUNTING: the priority group's change must exceed the reference group's change; needs are assessed relative to group-specific requirements. No scalar weights or effect sizes are assumed.",
+          "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+        }
+      }
+    },
+    {
+      "id": "E73",
+      "decision": "revised",
+      "reason": "Adapt the distributional arrow to an explicit non-compensatory prevalence gap, including threshold and overlap conditions.",
+      "status": "indicator",
+      "evidence": [
+        "A12",
+        "A13",
+        "A32"
+      ],
+      "scope": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "changes": {
+        "scope": {
+          "before": "CONDITIONAL ACCOUNTING: the priority group's change must exceed the reference group's change; needs are assessed relative to group-specific requirements. No scalar weights or effect sizes are assumed.",
+          "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+        }
+      }
+    },
+    {
+      "id": "E74",
+      "decision": "revised",
+      "reason": "Adapt the distributional arrow to an explicit non-compensatory prevalence gap, including threshold and overlap conditions.",
+      "status": "indicator",
+      "evidence": [
+        "A12",
+        "A24"
+      ],
+      "scope": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "changes": {
+        "scope": {
+          "before": "CONDITIONAL ACCOUNTING: the priority group's change must exceed the reference group's change; needs are assessed relative to group-specific requirements. No scalar weights or effect sizes are assumed.",
+          "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+        }
+      }
+    },
+    {
+      "id": "E75",
+      "decision": "revised",
+      "reason": "Adapt the distributional arrow to an explicit non-compensatory prevalence gap, including threshold and overlap conditions.",
+      "status": "indicator",
+      "evidence": [
+        "A09",
+        "A14"
+      ],
+      "scope": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "changes": {
+        "scope": {
+          "before": "CONDITIONAL ACCOUNTING: the priority group's change must exceed the reference group's change; needs are assessed relative to group-specific requirements. No scalar weights or effect sizes are assumed.",
+          "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+        }
+      }
+    },
+    {
+      "id": "E76",
+      "decision": "revised",
+      "reason": "Adapt the distributional arrow to an explicit non-compensatory prevalence gap, including threshold and overlap conditions.",
+      "status": "indicator",
+      "evidence": [
+        "A10",
+        "A12",
+        "A33"
+      ],
+      "scope": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible.",
+      "changes": {
+        "scope": {
+          "before": "CONDITIONAL ACCOUNTING: the priority group's change must exceed the reference group's change; needs are assessed relative to group-specific requirements. No scalar weights or effect sizes are assumed.",
+          "after": "PROPOSED INDICATOR: the change crosses an agreed unmet-need threshold for affected priority residents; reference-group outcomes and definitions are fixed. Removing one unmet need reduces the any-unmet-need prevalence only for people with no other unmet needs. Equal improvements in both groups need not narrow the gap; zero effects are possible."
+        }
+      }
+    },
+    {
+      "id": "E77",
+      "decision": "revised",
+      "reason": "Morbidity and poor self-rated health are distinct; retain the link as a proposed outcome mapping, not definitional arithmetic.",
+      "status": "synthesis",
+      "evidence": [
+        "A12",
+        "A14",
+        "A35"
+      ],
+      "scope": "OUTCOME-MAPPING ASSUMPTION: morbidity changes self-rated health and priority-group deterioration exceeds reference-group deterioration. Self-rating, survey thresholds and population composition are held comparable. This is not a mechanical identity or proof of unfairness.",
+      "changes": {
+        "rationale": {
+          "before": "Disproportionately worsening avoidable physical morbidity can widen the unfair health gap.",
+          "after": "Worsening physical ill health may raise poor-self-rated-health prevalence among priority residents and thereby widen the gap."
+        },
+        "evidence": {
+          "before": [
+            "A12",
+            "A14"
+          ],
+          "after": [
+            "A12",
+            "A14",
+            "A35"
+          ]
+        },
+        "status": {
+          "before": "indicator",
+          "after": "synthesis"
+        },
+        "scope": {
+          "before": "CONDITIONAL ACCOUNTING: the priority group's change must exceed the reference group's change; needs are assessed relative to group-specific requirements. No scalar weights or effect sizes are assumed.",
+          "after": "OUTCOME-MAPPING ASSUMPTION: morbidity changes self-rated health and priority-group deterioration exceeds reference-group deterioration. Self-rating, survey thresholds and population composition are held comparable. This is not a mechanical identity or proof of unfairness."
+        }
+      }
+    },
+    {
+      "id": "E78",
+      "decision": "revised",
+      "reason": "Morbidity and poor self-rated health are distinct; retain the link as a proposed outcome mapping, not definitional arithmetic.",
+      "status": "synthesis",
+      "evidence": [
+        "A12",
+        "A19",
+        "A35"
+      ],
+      "scope": "OUTCOME-MAPPING ASSUMPTION: morbidity changes self-rated health and priority-group deterioration exceeds reference-group deterioration. Self-rating, survey thresholds and population composition are held comparable. This is not a mechanical identity or proof of unfairness.",
+      "changes": {
+        "rationale": {
+          "before": "Disproportionately worsening avoidable mental morbidity can widen the unfair health gap.",
+          "after": "Worsening mental ill health may raise poor-self-rated-health prevalence among priority residents and thereby widen the gap."
+        },
+        "evidence": {
+          "before": [
+            "A12",
+            "A19"
+          ],
+          "after": [
+            "A12",
+            "A19",
+            "A35"
+          ]
+        },
+        "status": {
+          "before": "indicator",
+          "after": "synthesis"
+        },
+        "scope": {
+          "before": "CONDITIONAL ACCOUNTING: the priority group's change must exceed the reference group's change; needs are assessed relative to group-specific requirements. No scalar weights or effect sizes are assumed.",
+          "after": "OUTCOME-MAPPING ASSUMPTION: morbidity changes self-rated health and priority-group deterioration exceeds reference-group deterioration. Self-rating, survey thresholds and population composition are held comparable. This is not a mechanical identity or proof of unfairness."
+        }
+      }
+    },
+    {
+      "id": "E79",
+      "decision": "added definition",
+      "reason": "Add the missing income denominator effect, explicitly as a definitional relationship with no fabricated literature citation.",
+      "after": {
+        "id": "E79",
+        "source": "V01",
+        "target": "V08",
+        "polarity": -1,
+        "status": "definition",
+        "evidence": [],
+        "delay": false,
+        "rationale": "With housing payments fixed and disposable income positive, more income reduces the household housing-payment-to-income ratio.",
+        "scope": "DEFINITIONAL RELATIONSHIP: burden = payment / disposable income; derivative with respect to income = -payment / income squared. Zero payments imply zero sensitivity. Evaluate the same households, then aggregate with a fixed rule. Zero/negative incomes and changes in household composition fall outside this ratio domain.",
+        "derivation": "For C >= 0 and Y > 0: B = C/Y; partial B/partial Y = -C/Y^2 <= 0.",
+        "evidenceBasis": "Algebraic consequence of the stated variable definitions; not an empirical finding attributed to a paper."
+      }
+    },
+    {
+      "id": "E80",
+      "decision": "added definition",
+      "reason": "Add the missing income denominator effect, explicitly as a definitional relationship with no fabricated literature citation.",
+      "after": {
+        "id": "E80",
+        "source": "V01",
+        "target": "V09",
+        "polarity": -1,
+        "status": "definition",
+        "evidence": [],
+        "delay": false,
+        "rationale": "With energy payments fixed and disposable income positive, more income reduces the household energy-payment-to-income ratio.",
+        "scope": "DEFINITIONAL RELATIONSHIP: burden = payment / disposable income; derivative with respect to income = -payment / income squared. Zero payments imply zero sensitivity. Evaluate the same households, then aggregate with a fixed rule. Zero/negative incomes and changes in household composition fall outside this ratio domain.",
+        "derivation": "For C >= 0 and Y > 0: B = C/Y; partial B/partial Y = -C/Y^2 <= 0.",
+        "evidenceBasis": "Algebraic consequence of the stated variable definitions; not an empirical finding attributed to a paper."
+      }
+    }
+  ],
+  "loops": [
+    {
+      "id": "R1",
+      "decision": "retain with evidence category",
+      "reason": "Source-described conceptual feedback, not empirical causal validation.",
+      "changes": {
+        "reviewNote": {
+          "before": null,
+          "after": "Source-described conceptual feedback, not empirical causal validation."
+        },
+        "evidenceCategory": {
+          "before": null,
+          "after": "Source-described structure"
+        }
+      }
+    },
+    {
+      "id": "R2",
+      "decision": "retain with evidence category",
+      "reason": "Source-described stewardship mechanism, adapted to usable green space.",
+      "changes": {
+        "name": {
+          "before": "Shared-space stewardship",
+          "after": "Green-space stewardship"
+        },
+        "reviewNote": {
+          "before": null,
+          "after": "Source-described stewardship mechanism, adapted to usable green space."
+        },
+        "evidenceCategory": {
+          "before": null,
+          "after": "Source-described structure"
+        }
+      }
+    },
+    {
+      "id": "R3",
+      "decision": "retain with evidence category",
+      "reason": "S1 sorting mechanism with explicit public-investment and effective-access mediators; rental-sector and capitalization conditions apply.",
+      "changes": {
+        "assumptions": {
+          "before": [
+            "Investment responds to effective influence rather than fully compensating need.",
+            "Housing costs sort entry and retention; affordability protections can interrupt the loop.",
+            "Effective service access accompanies market-valued amenity improvements; access gains alone do not necessarily raise prices.",
+            "V35 is compositional and never substitutes for V01 household resources."
+          ],
+          "after": [
+            "Investment responds to effective influence rather than fully compensating need.",
+            "Housing costs sort entry and retention; affordability protections can interrupt the loop.",
+            "Effective service access accompanies market-valued amenity improvements; access gains alone do not necessarily raise prices.",
+            "V35 is compositional and never substitutes for V01 household resources.",
+            "Local market rents are transmitted to exposed rental payments; owner-occupied and protected tenures do not automatically follow this pathway."
+          ]
+        },
+        "reviewNote": {
+          "before": null,
+          "after": "S1 sorting mechanism with explicit public-investment and effective-access mediators; rental-sector and capitalization conditions apply."
+        },
+        "evidenceCategory": {
+          "before": null,
+          "after": "Adapted source mechanism"
+        }
+      }
+    },
+    {
+      "id": "R4",
+      "decision": "retain with evidence category",
+      "reason": "S1 stress–influence mechanism mapped between population levels; organizing-base and investment-allocation assumptions are essential.",
+      "changes": {
+        "reviewNote": {
+          "before": null,
+          "after": "S1 stress–influence mechanism mapped between population levels; organizing-base and investment-allocation assumptions are essential."
+        },
+        "evidenceCategory": {
+          "before": null,
+          "after": "Adapted source mechanism"
+        }
+      }
+    },
+    {
+      "id": "R5",
+      "decision": "retain with evidence category",
+      "reason": "Household health–work–income closure is not established as a complete feedback loop by the six papers.",
+      "changes": {
+        "reviewNote": {
+          "before": null,
+          "after": "Household health–work–income closure is not established as a complete feedback loop by the six papers."
+        },
+        "evidenceCategory": {
+          "before": null,
+          "after": "Exploratory closure"
+        }
+      }
+    },
+    {
+      "id": "B1",
+      "decision": "retain with evidence category",
+      "reason": "Feedback exists only if an unmet-needs gap is monitored and a housing response is authorized, funded and delivered.",
+      "changes": {
+        "assumptions": {
+          "before": [
+            "Monitoring and political willingness activate the response.",
+            "Protections are financed, enforced and accessible.",
+            "Priority-group improvement exceeds reference-group improvement."
+          ],
+          "after": [
+            "Monitoring and political willingness activate the response.",
+            "Protections are financed, enforced and accessible.",
+            "Priority-group improvement exceeds reference-group improvement.",
+            "The intervention changes the prevalence of at least one unmet need, accounting for overlapping needs, and the reference-group gap does not offset the gain."
+          ]
+        },
+        "reviewNote": {
+          "before": null,
+          "after": "Feedback exists only if an unmet-needs gap is monitored and a housing response is authorized, funded and delivered."
+        },
+        "evidenceCategory": {
+          "before": null,
+          "after": "Policy-design hypothesis"
+        }
+      }
+    },
+    {
+      "id": "B2",
+      "decision": "retain with evidence category",
+      "reason": "Feedback exists only if monitored needs trigger transit investment that reaches the disadvantaged group.",
+      "changes": {
+        "assumptions": {
+          "before": [
+            "Needs monitoring identifies the mobility component of the gap.",
+            "Budgets are directed to underserved groups and translate into usable transport.",
+            "The disparity indicator is conditional on relative improvement."
+          ],
+          "after": [
+            "Needs monitoring identifies the mobility component of the gap.",
+            "Budgets are directed to underserved groups and translate into usable transport.",
+            "The disparity indicator is conditional on relative improvement.",
+            "The intervention changes the prevalence of at least one unmet need, accounting for overlapping needs, and the reference-group gap does not offset the gain."
+          ]
+        },
+        "reviewNote": {
+          "before": null,
+          "after": "Feedback exists only if monitored needs trigger transit investment that reaches the disadvantaged group."
+        },
+        "evidenceCategory": {
+          "before": null,
+          "after": "Policy-design hypothesis"
+        }
+      }
+    },
+    {
+      "id": "B3",
+      "decision": "retain with evidence category",
+      "reason": "Feedback requires injury surveillance, political response and effective safety investment.",
+      "changes": {
+        "reviewNote": {
+          "before": null,
+          "after": "Feedback requires injury surveillance, political response and effective safety investment."
+        },
+        "evidenceCategory": {
+          "before": null,
+          "after": "Policy-design hypothesis"
+        }
+      }
+    },
+    {
+      "id": "B4",
+      "decision": "retain with evidence category",
+      "reason": "Combines stewardship, rent capitalization, financial displacement and network loss; not a source-validated complete loop.",
+      "changes": {
+        "assumptions": {
+          "before": [
+            "Housing costs capitalize amenity improvements.",
+            "Original residents lack sufficient protection against unaffordable tenure costs.",
+            "Track displaced people, not only the changing neighborhood population."
+          ],
+          "after": [
+            "Housing costs capitalize amenity improvements.",
+            "Original residents lack sufficient protection against unaffordable tenure costs.",
+            "Track displaced people, not only the changing neighborhood population.",
+            "Local market rents are transmitted to exposed rental payments; owner-occupied and protected tenures do not automatically follow this pathway."
+          ]
+        },
+        "reviewNote": {
+          "before": null,
+          "after": "Combines stewardship, rent capitalization, financial displacement and network loss; not a source-validated complete loop."
+        },
+        "evidenceCategory": {
+          "before": null,
+          "after": "Cross-source synthesis"
+        }
+      }
+    },
+    {
+      "id": "B5",
+      "decision": "retain with evidence category",
+      "reason": "Exposure-feedback scenario with fixed injury hazard and responsive safety perception; the loop can weaken or disappear when those conditions fail.",
+      "changes": {
+        "mechanism": {
+          "before": "In an unsafe road environment, additional active travel can expose more residents to injury. Perceived danger may discourage activity, constraining the initial increase.",
+          "after": "More active-travel time can increase injuries per resident when injury hazard per unit of time is unchanged. If those injuries lower perceived safety, people reduce active travel. This balancing exposure pathway does not describe the net effect of safer walking and cycling policies."
+        },
+        "assumptions": {
+          "before": [
+            "Conditional on unsafe infrastructure and insufficient protection.",
+            "Injury risk is population-level, not risk per trip; safety-in-numbers may change the sign.",
+            "Measured injury risk and perceived danger are not identical."
+          ],
+          "after": [
+            "Injury hazard per unit exposure is positive and held fixed; total physical activity is not the exposure variable.",
+            "Residents become aware of injuries and update perceived safety.",
+            "Perceived danger reduces actual transport walking or cycling, rather than only recreational activity.",
+            "Safety-in-numbers, route choice and safety infrastructure may reduce hazard and weaken or interrupt this loop."
+          ]
+        },
+        "name": {
+          "before": "Unsafe active-travel constraint",
+          "after": "Active-travel exposure constraint"
+        },
+        "reviewNote": {
+          "before": null,
+          "after": "Exposure-feedback scenario with fixed injury hazard and responsive safety perception; the loop can weaken or disappear when those conditions fail."
+        },
+        "evidenceCategory": {
+          "before": null,
+          "after": "Context-dependent hypothesis"
+        }
+      }
+    }
+  ],
+  "anchorCorrections": {
+    "A34": {
+      "locator": {
+        "before": "Abstract; Introduction; conclusions; manuscript pp.2–3,20–21",
+        "after": "Section 6.4, accepted manuscript pp.22–23; especially p.23"
+      },
+      "paraphrase": {
+        "before": "Workforce productivity and downstream costs require further investigation; a complete feedback model is not estimated.",
+        "after": "Health-related costs include absenteeism and disability-related productivity losses. A planning-model example monetizes productivity benefits. This supports an economic pathway but does not estimate this model's household employment or income feedback."
+      }
+    },
+    "A35": "New anchor distinguishes source outcome choice from the proposed group-gap adaptation."
+  }
+}

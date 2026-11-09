@@ -1,0 +1,118 @@
+{
+  "overview": {
+    "routes": 77,
+    "kinds": {
+      "orthogonal": 77
+    },
+    "nodeCrossings": [],
+    "obstacleCrossings": [],
+    "maximumBends": 4,
+    "totalSamples": 448
+  },
+  "loops": {
+    "R1": {
+      "routes": 3,
+      "kinds": {
+        "orthogonal": 3
+      },
+      "nodeCrossings": [],
+      "obstacleCrossings": [],
+      "maximumBends": 2,
+      "totalSamples": 14
+    },
+    "R2": {
+      "routes": 2,
+      "kinds": {
+        "orthogonal": 2
+      },
+      "nodeCrossings": [],
+      "obstacleCrossings": [],
+      "maximumBends": 0,
+      "totalSamples": 8
+    },
+    "R3": {
+      "routes": 5,
+      "kinds": {
+        "orthogonal": 5
+      },
+      "nodeCrossings": [],
+      "obstacleCrossings": [],
+      "maximumBends": 2,
+      "totalSamples": 24
+    },
+    "R4": {
+      "routes": 4,
+      "kinds": {
+        "orthogonal": 4
+      },
+      "nodeCrossings": [],
+      "obstacleCrossings": [],
+      "maximumBends": 2,
+      "totalSamples": 20
+    },
+    "R5": {
+      "routes": 4,
+      "kinds": {
+        "orthogonal": 4
+      },
+      "nodeCrossings": [],
+      "obstacleCrossings": [],
+      "maximumBends": 2,
+      "totalSamples": 20
+    },
+    "B1": {
+      "routes": 4,
+      "kinds": {
+        "orthogonal": 4
+      },
+      "nodeCrossings": [],
+      "obstacleCrossings": [],
+      "maximumBends": 2,
+      "totalSamples": 20
+    },
+    "B2": {
+      "routes": 4,
+      "kinds": {
+        "orthogonal": 4
+      },
+      "nodeCrossings": [],
+      "obstacleCrossings": [],
+      "maximumBends": 2,
+      "totalSamples": 20
+    },
+    "B3": {
+      "routes": 4,
+      "kinds": {
+        "orthogonal": 4
+      },
+      "nodeCrossings": [],
+      "obstacleCrossings": [],
+      "maximumBends": 2,
+      "totalSamples": 20
+    },
+    "B4": {
+      "routes": 5,
+      "kinds": {
+        "orthogonal": 5
+      },
+      "nodeCrossings": [],
+      "obstacleCrossings": [],
+      "maximumBends": 2,
+      "totalSamples": 24
+    },
+    "B5": {
+      "routes": 3,
+      "kinds": {
+        "orthogonal": 3
+      },
+      "nodeCrossings": [],
+      "obstacleCrossings": [],
+      "maximumBends": 2,
+      "totalSamples": 14
+    }
+  },
+  "roundtripEdges": 77,
+  "manualEdges": 77,
+  "frozenModelUnchanged": true,
+  "baseRoutesUnchanged": true
+}

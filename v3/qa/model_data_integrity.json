@@ -1,0 +1,642 @@
+{
+  "checkedAt": "2026-11-08T23:42:36.467449+00:00",
+  "scope": "Data consistency and preservation through drawing changes; not a new assessment of empirical causal validity.",
+  "checks": [
+    {
+      "name": "model.json: byte-identical to pre-drawing baseline",
+      "passed": true
+    },
+    {
+      "name": "model.js: byte-identical to pre-drawing baseline",
+      "passed": true
+    },
+    {
+      "name": "Independent structural-validation record matches current model hash",
+      "passed": true
+    },
+    {
+      "name": "Browser-bundled model exactly matches canonical JSON",
+      "passed": true
+    },
+    {
+      "name": "variables.csv: every exported field matches model",
+      "passed": true,
+      "details": {
+        "rows": 35,
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": [],
+        "fieldDifferences": []
+      }
+    },
+    {
+      "name": "causal_links.csv: every exported field matches model",
+      "passed": true,
+      "details": {
+        "rows": 77,
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": [],
+        "fieldDifferences": []
+      }
+    },
+    {
+      "name": "feedback_loops.csv: every exported field matches model",
+      "passed": true,
+      "details": {
+        "rows": 10,
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": [],
+        "fieldDifferences": []
+      }
+    },
+    {
+      "name": "sources.csv: every exported field matches model",
+      "passed": true,
+      "details": {
+        "rows": 6,
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": [],
+        "fieldDifferences": []
+      }
+    },
+    {
+      "name": "evidence_anchors.csv: every exported field matches model",
+      "passed": true,
+      "details": {
+        "rows": 35,
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": [],
+        "fieldDifferences": []
+      }
+    },
+    {
+      "name": "nodes: identifiers unique",
+      "passed": true
+    },
+    {
+      "name": "edges: identifiers unique",
+      "passed": true
+    },
+    {
+      "name": "loops: identifiers unique",
+      "passed": true
+    },
+    {
+      "name": "anchors: identifiers unique",
+      "passed": true
+    },
+    {
+      "name": "sources: identifiers unique",
+      "passed": true
+    },
+    {
+      "name": "groups: identifiers unique",
+      "passed": true
+    },
+    {
+      "name": "All variable labels, definitions and groups valid",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "All directed links have valid distinct endpoints, signs and delay flags",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "No duplicated directed links",
+      "passed": true
+    },
+    {
+      "name": "Every evidence anchor and source reference resolves",
+      "passed": true,
+      "details": {
+        "missingAnchors": [],
+        "invalidSources": []
+      }
+    },
+    {
+      "name": "Every relationship has evidence or an explicit algebraic derivation",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "R1: closed cycle, memberships and sign parity correct",
+      "passed": true,
+      "details": {
+        "id": "R1",
+        "name": "Cohesion and safety",
+        "edges": [
+          "E40",
+          "E41",
+          "E42"
+        ],
+        "nodes": [
+          "V28",
+          "V26",
+          "V27"
+        ],
+        "closed": true,
+        "negativeLinks": 2,
+        "declaredType": "R",
+        "computedType": "R",
+        "membershipMatches": true
+      }
+    },
+    {
+      "name": "R2: closed cycle, memberships and sign parity correct",
+      "passed": true,
+      "details": {
+        "id": "R2",
+        "name": "Green-space stewardship",
+        "edges": [
+          "E39",
+          "E38"
+        ],
+        "nodes": [
+          "V28",
+          "V14"
+        ],
+        "closed": true,
+        "negativeLinks": 0,
+        "declaredType": "R",
+        "computedType": "R",
+        "membershipMatches": true
+      }
+    },
+    {
+      "name": "R3: closed cycle, memberships and sign parity correct",
+      "passed": true,
+      "details": {
+        "id": "R3",
+        "name": "Resources, voice and residential sorting",
+        "edges": [
+          "E01",
+          "E02",
+          "E06",
+          "E22",
+          "E23"
+        ],
+        "nodes": [
+          "V35",
+          "V02",
+          "V03",
+          "V15",
+          "V12"
+        ],
+        "closed": true,
+        "negativeLinks": 0,
+        "declaredType": "R",
+        "computedType": "R",
+        "membershipMatches": true
+      }
+    },
+    {
+      "name": "R4: closed cycle, memberships and sign parity correct",
+      "passed": true,
+      "details": {
+        "id": "R4",
+        "name": "Stress and constrained voice",
+        "edges": [
+          "E03",
+          "E02",
+          "E05",
+          "E44"
+        ],
+        "nodes": [
+          "V29",
+          "V02",
+          "V03",
+          "V14"
+        ],
+        "closed": true,
+        "negativeLinks": 2,
+        "declaredType": "R",
+        "computedType": "R",
+        "membershipMatches": true
+      }
+    },
+    {
+      "name": "R5: closed cycle, memberships and sign parity correct",
+      "passed": true,
+      "details": {
+        "id": "R5",
+        "name": "Health and household resources",
+        "edges": [
+          "E34",
+          "E35",
+          "E67",
+          "E68"
+        ],
+        "nodes": [
+          "V01",
+          "V06",
+          "V30",
+          "V32"
+        ],
+        "closed": true,
+        "negativeLinks": 2,
+        "declaredType": "R",
+        "computedType": "R",
+        "membershipMatches": true
+      }
+    },
+    {
+      "name": "B1: closed cycle, memberships and sign parity correct",
+      "passed": true,
+      "details": {
+        "id": "B1",
+        "name": "Equity-responsive housing protection",
+        "edges": [
+          "E14",
+          "E13",
+          "E18",
+          "E74"
+        ],
+        "nodes": [
+          "V33",
+          "V04",
+          "V05",
+          "V10"
+        ],
+        "closed": true,
+        "negativeLinks": 1,
+        "declaredType": "B",
+        "computedType": "B",
+        "membershipMatches": true
+      }
+    },
+    {
+      "name": "B2: closed cycle, memberships and sign parity correct",
+      "passed": true,
+      "details": {
+        "id": "B2",
+        "name": "Equity-responsive transport access",
+        "edges": [
+          "E14",
+          "E12",
+          "E07",
+          "E72"
+        ],
+        "nodes": [
+          "V33",
+          "V04",
+          "V03",
+          "V16"
+        ],
+        "closed": true,
+        "negativeLinks": 1,
+        "declaredType": "B",
+        "computedType": "B",
+        "membershipMatches": true
+      }
+    },
+    {
+      "name": "B3: closed cycle, memberships and sign parity correct",
+      "passed": true,
+      "details": {
+        "id": "B3",
+        "name": "Safety-responsive street investment",
+        "edges": [
+          "E16",
+          "E12",
+          "E08",
+          "E53"
+        ],
+        "nodes": [
+          "V22",
+          "V04",
+          "V03",
+          "V17"
+        ],
+        "closed": true,
+        "negativeLinks": 1,
+        "declaredType": "B",
+        "computedType": "B",
+        "membershipMatches": true
+      }
+    },
+    {
+      "name": "B4: closed cycle, memberships and sign parity correct",
+      "passed": true,
+      "details": {
+        "id": "B4",
+        "name": "Amenity gains eroded by displacement",
+        "edges": [
+          "E39",
+          "E21",
+          "E24",
+          "E31",
+          "E32"
+        ],
+        "nodes": [
+          "V28",
+          "V14",
+          "V12",
+          "V08",
+          "V11"
+        ],
+        "closed": true,
+        "negativeLinks": 1,
+        "declaredType": "B",
+        "computedType": "B",
+        "membershipMatches": true
+      }
+    },
+    {
+      "name": "B5: closed cycle, memberships and sign parity correct",
+      "passed": true,
+      "details": {
+        "id": "B5",
+        "name": "Active-travel exposure constraint",
+        "edges": [
+          "E54",
+          "E55",
+          "E43"
+        ],
+        "nodes": [
+          "V21",
+          "V22",
+          "V27"
+        ],
+        "closed": true,
+        "negativeLinks": 1,
+        "declaredType": "B",
+        "computedType": "B",
+        "membershipMatches": true
+      }
+    }
+  ],
+  "fileHashes": {
+    "model.json": {
+      "current": "1995f1dd8bb50dbc513025ad0a2a9d93c4965e1ee508d97fdc0228e605c68b2b",
+      "recordedBeforeDrawingChanges": "1995f1dd8bb50dbc513025ad0a2a9d93c4965e1ee508d97fdc0228e605c68b2b"
+    },
+    "model.js": {
+      "current": "67aff2c0f61f2d6830284ab7820c790ae5d16f1fc39bb431c38f384956571764",
+      "recordedBeforeDrawingChanges": "67aff2c0f61f2d6830284ab7820c790ae5d16f1fc39bb431c38f384956571764"
+    }
+  },
+  "csvComparisons": {
+    "variables.csv": {
+      "rows": 35,
+      "missingIds": [],
+      "unexpectedIds": [],
+      "duplicateIds": [],
+      "fieldDifferences": []
+    },
+    "causal_links.csv": {
+      "rows": 77,
+      "missingIds": [],
+      "unexpectedIds": [],
+      "duplicateIds": [],
+      "fieldDifferences": []
+    },
+    "feedback_loops.csv": {
+      "rows": 10,
+      "missingIds": [],
+      "unexpectedIds": [],
+      "duplicateIds": [],
+      "fieldDifferences": []
+    },
+    "sources.csv": {
+      "rows": 6,
+      "missingIds": [],
+      "unexpectedIds": [],
+      "duplicateIds": [],
+      "fieldDifferences": []
+    },
+    "evidence_anchors.csv": {
+      "rows": 35,
+      "missingIds": [],
+      "unexpectedIds": [],
+      "duplicateIds": [],
+      "fieldDifferences": []
+    }
+  },
+  "loops": [
+    {
+      "id": "R1",
+      "name": "Cohesion and safety",
+      "edges": [
+        "E40",
+        "E41",
+        "E42"
+      ],
+      "nodes": [
+        "V28",
+        "V26",
+        "V27"
+      ],
+      "closed": true,
+      "negativeLinks": 2,
+      "declaredType": "R",
+      "computedType": "R",
+      "membershipMatches": true
+    },
+    {
+      "id": "R2",
+      "name": "Green-space stewardship",
+      "edges": [
+        "E39",
+        "E38"
+      ],
+      "nodes": [
+        "V28",
+        "V14"
+      ],
+      "closed": true,
+      "negativeLinks": 0,
+      "declaredType": "R",
+      "computedType": "R",
+      "membershipMatches": true
+    },
+    {
+      "id": "R3",
+      "name": "Resources, voice and residential sorting",
+      "edges": [
+        "E01",
+        "E02",
+        "E06",
+        "E22",
+        "E23"
+      ],
+      "nodes": [
+        "V35",
+        "V02",
+        "V03",
+        "V15",
+        "V12"
+      ],
+      "closed": true,
+      "negativeLinks": 0,
+      "declaredType": "R",
+      "computedType": "R",
+      "membershipMatches": true
+    },
+    {
+      "id": "R4",
+      "name": "Stress and constrained voice",
+      "edges": [
+        "E03",
+        "E02",
+        "E05",
+        "E44"
+      ],
+      "nodes": [
+        "V29",
+        "V02",
+        "V03",
+        "V14"
+      ],
+      "closed": true,
+      "negativeLinks": 2,
+      "declaredType": "R",
+      "computedType": "R",
+      "membershipMatches": true
+    },
+    {
+      "id": "R5",
+      "name": "Health and household resources",
+      "edges": [
+        "E34",
+        "E35",
+        "E67",
+        "E68"
+      ],
+      "nodes": [
+        "V01",
+        "V06",
+        "V30",
+        "V32"
+      ],
+      "closed": true,
+      "negativeLinks": 2,
+      "declaredType": "R",
+      "computedType": "R",
+      "membershipMatches": true
+    },
+    {
+      "id": "B1",
+      "name": "Equity-responsive housing protection",
+      "edges": [
+        "E14",
+        "E13",
+        "E18",
+        "E74"
+      ],
+      "nodes": [
+        "V33",
+        "V04",
+        "V05",
+        "V10"
+      ],
+      "closed": true,
+      "negativeLinks": 1,
+      "declaredType": "B",
+      "computedType": "B",
+      "membershipMatches": true
+    },
+    {
+      "id": "B2",
+      "name": "Equity-responsive transport access",
+      "edges": [
+        "E14",
+        "E12",
+        "E07",
+        "E72"
+      ],
+      "nodes": [
+        "V33",
+        "V04",
+        "V03",
+        "V16"
+      ],
+      "closed": true,
+      "negativeLinks": 1,
+      "declaredType": "B",
+      "computedType": "B",
+      "membershipMatches": true
+    },
+    {
+      "id": "B3",
+      "name": "Safety-responsive street investment",
+      "edges": [
+        "E16",
+        "E12",
+        "E08",
+        "E53"
+      ],
+      "nodes": [
+        "V22",
+        "V04",
+        "V03",
+        "V17"
+      ],
+      "closed": true,
+      "negativeLinks": 1,
+      "declaredType": "B",
+      "computedType": "B",
+      "membershipMatches": true
+    },
+    {
+      "id": "B4",
+      "name": "Amenity gains eroded by displacement",
+      "edges": [
+        "E39",
+        "E21",
+        "E24",
+        "E31",
+        "E32"
+      ],
+      "nodes": [
+        "V28",
+        "V14",
+        "V12",
+        "V08",
+        "V11"
+      ],
+      "closed": true,
+      "negativeLinks": 1,
+      "declaredType": "B",
+      "computedType": "B",
+      "membershipMatches": true
+    },
+    {
+      "id": "B5",
+      "name": "Active-travel exposure constraint",
+      "edges": [
+        "E54",
+        "E55",
+        "E43"
+      ],
+      "nodes": [
+        "V21",
+        "V22",
+        "V27"
+      ],
+      "closed": true,
+      "negativeLinks": 1,
+      "declaredType": "B",
+      "computedType": "B",
+      "membershipMatches": true
+    }
+  ],
+  "modelVersion": "2026-11-03.2",
+  "counts": {
+    "variables": 35,
+    "links": 77,
+    "loops": 10,
+    "reinforcing": 5,
+    "balancing": 5,
+    "sources": 6,
+    "anchors": 35,
+    "delayedLinks": 44
+  },
+  "passed": true,
+  "failedChecks": []
+}

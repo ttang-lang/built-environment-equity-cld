@@ -1,0 +1,839 @@
+{
+  "modelVersion": "2026-11-03.2",
+  "presentationRevision": "Local straight-line editor, 9 November 2026",
+  "published": false,
+  "scope": "Straight-line rendering, editable presentation layout, model fidelity and SVG export; not empirical causal validation.",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Runtime model matches canonical model before edits",
+      "passed": true
+    },
+    {
+      "name": "Overview retains35 variables,77 actual endpoints,signs,delays and evidence styles",
+      "passed": true,
+      "details": {
+        "nodeCount": 35,
+        "edgeCount": 77,
+        "nodeIdsMatch": true,
+        "edgeIdsMatch": true,
+        "nodeMismatches": [],
+        "edgeMismatches": [],
+        "loopBadges": []
+      }
+    },
+    {
+      "name": "All77 overview routes contain straight line segments only",
+      "passed": true,
+      "details": {
+        "count": 77,
+        "curves": [],
+        "invalid": []
+      }
+    },
+    {
+      "name": "All six thematic regions retained",
+      "passed": true
+    },
+    {
+      "name": "All six adjacent region gutters remain96 units",
+      "passed": true,
+      "details": [
+        96,
+        96,
+        96,
+        96,
+        96,
+        96
+      ]
+    },
+    {
+      "name": "Automatic arrowheads are aligned and remain outside every polarity and delay label",
+      "passed": true,
+      "details": {
+        "headOverlaps": [],
+        "tailOverlaps": [],
+        "markerAlignment": [],
+        "shaftExposure": []
+      }
+    },
+    {
+      "name": "Automatic routes avoid all variable cards and region headings",
+      "passed": true,
+      "details": {
+        "routes": 77,
+        "kinds": {
+          "orthogonal": 77
+        },
+        "nodeCrossings": [],
+        "obstacleCrossings": [],
+        "maximumBends": 4,
+        "totalSamples": 448
+      }
+    },
+    {
+      "name": "All10 feedback loops remain closed with original parity",
+      "passed": true,
+      "details": [
+        {
+          "id": "R1",
+          "closed": true,
+          "computedType": "R",
+          "declaredType": "R"
+        },
+        {
+          "id": "R2",
+          "closed": true,
+          "computedType": "R",
+          "declaredType": "R"
+        },
+        {
+          "id": "R3",
+          "closed": true,
+          "computedType": "R",
+          "declaredType": "R"
+        },
+        {
+          "id": "R4",
+          "closed": true,
+          "computedType": "R",
+          "declaredType": "R"
+        },
+        {
+          "id": "R5",
+          "closed": true,
+          "computedType": "R",
+          "declaredType": "R"
+        },
+        {
+          "id": "B1",
+          "closed": true,
+          "computedType": "B",
+          "declaredType": "B"
+        },
+        {
+          "id": "B2",
+          "closed": true,
+          "computedType": "B",
+          "declaredType": "B"
+        },
+        {
+          "id": "B3",
+          "closed": true,
+          "computedType": "B",
+          "declaredType": "B"
+        },
+        {
+          "id": "B4",
+          "closed": true,
+          "computedType": "B",
+          "declaredType": "B"
+        },
+        {
+          "id": "B5",
+          "closed": true,
+          "computedType": "B",
+          "declaredType": "B"
+        }
+      ]
+    },
+    {
+      "name": "All77 evidence panels retain the correct sources,targets,signs,rationales and citations",
+      "passed": true,
+      "details": {
+        "edgesClicked": 77,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Fresh full SVG retains model semantics",
+      "passed": true,
+      "details": {
+        "nodeCount": 35,
+        "edgeCount": 77,
+        "nodeIdsMatch": true,
+        "edgeIdsMatch": true,
+        "nodeMismatches": [],
+        "edgeMismatches": [],
+        "loopBadges": []
+      }
+    },
+    {
+      "name": "R1: live and SVG loop retain all semantics using straight segments",
+      "passed": true,
+      "details": {
+        "loop": "R1",
+        "live": {
+          "nodeCount": 3,
+          "edgeCount": 3,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "R1",
+              "label": "R1",
+              "type": "Reinforcing"
+            }
+          ]
+        },
+        "export": {
+          "nodeCount": 3,
+          "edgeCount": 3,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "R1",
+              "label": "R1",
+              "type": "Reinforcing"
+            }
+          ]
+        },
+        "straight": {
+          "count": 3,
+          "curves": [],
+          "invalid": []
+        },
+        "svg": {
+          "curves": 0,
+          "handles": 0
+        }
+      }
+    },
+    {
+      "name": "R1: loop badge and caption do not obscure an arrow",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "R2: live and SVG loop retain all semantics using straight segments",
+      "passed": true,
+      "details": {
+        "loop": "R2",
+        "live": {
+          "nodeCount": 2,
+          "edgeCount": 2,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "R2",
+              "label": "R2",
+              "type": "Reinforcing"
+            }
+          ]
+        },
+        "export": {
+          "nodeCount": 2,
+          "edgeCount": 2,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "R2",
+              "label": "R2",
+              "type": "Reinforcing"
+            }
+          ]
+        },
+        "straight": {
+          "count": 2,
+          "curves": [],
+          "invalid": []
+        },
+        "svg": {
+          "curves": 0,
+          "handles": 0
+        }
+      }
+    },
+    {
+      "name": "R2: loop badge and caption do not obscure an arrow",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "R3: live and SVG loop retain all semantics using straight segments",
+      "passed": true,
+      "details": {
+        "loop": "R3",
+        "live": {
+          "nodeCount": 5,
+          "edgeCount": 5,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "R3",
+              "label": "R3",
+              "type": "Reinforcing"
+            }
+          ]
+        },
+        "export": {
+          "nodeCount": 5,
+          "edgeCount": 5,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "R3",
+              "label": "R3",
+              "type": "Reinforcing"
+            }
+          ]
+        },
+        "straight": {
+          "count": 5,
+          "curves": [],
+          "invalid": []
+        },
+        "svg": {
+          "curves": 0,
+          "handles": 0
+        }
+      }
+    },
+    {
+      "name": "R3: loop badge and caption do not obscure an arrow",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "R4: live and SVG loop retain all semantics using straight segments",
+      "passed": true,
+      "details": {
+        "loop": "R4",
+        "live": {
+          "nodeCount": 4,
+          "edgeCount": 4,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "R4",
+              "label": "R4",
+              "type": "Reinforcing"
+            }
+          ]
+        },
+        "export": {
+          "nodeCount": 4,
+          "edgeCount": 4,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "R4",
+              "label": "R4",
+              "type": "Reinforcing"
+            }
+          ]
+        },
+        "straight": {
+          "count": 4,
+          "curves": [],
+          "invalid": []
+        },
+        "svg": {
+          "curves": 0,
+          "handles": 0
+        }
+      }
+    },
+    {
+      "name": "R4: loop badge and caption do not obscure an arrow",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "R5: live and SVG loop retain all semantics using straight segments",
+      "passed": true,
+      "details": {
+        "loop": "R5",
+        "live": {
+          "nodeCount": 4,
+          "edgeCount": 4,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "R5",
+              "label": "R5",
+              "type": "Reinforcing"
+            }
+          ]
+        },
+        "export": {
+          "nodeCount": 4,
+          "edgeCount": 4,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "R5",
+              "label": "R5",
+              "type": "Reinforcing"
+            }
+          ]
+        },
+        "straight": {
+          "count": 4,
+          "curves": [],
+          "invalid": []
+        },
+        "svg": {
+          "curves": 0,
+          "handles": 0
+        }
+      }
+    },
+    {
+      "name": "R5: loop badge and caption do not obscure an arrow",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "B1: live and SVG loop retain all semantics using straight segments",
+      "passed": true,
+      "details": {
+        "loop": "B1",
+        "live": {
+          "nodeCount": 4,
+          "edgeCount": 4,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "B1",
+              "label": "B1",
+              "type": "Balancing"
+            }
+          ]
+        },
+        "export": {
+          "nodeCount": 4,
+          "edgeCount": 4,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "B1",
+              "label": "B1",
+              "type": "Balancing"
+            }
+          ]
+        },
+        "straight": {
+          "count": 4,
+          "curves": [],
+          "invalid": []
+        },
+        "svg": {
+          "curves": 0,
+          "handles": 0
+        }
+      }
+    },
+    {
+      "name": "B1: loop badge and caption do not obscure an arrow",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "B2: live and SVG loop retain all semantics using straight segments",
+      "passed": true,
+      "details": {
+        "loop": "B2",
+        "live": {
+          "nodeCount": 4,
+          "edgeCount": 4,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "B2",
+              "label": "B2",
+              "type": "Balancing"
+            }
+          ]
+        },
+        "export": {
+          "nodeCount": 4,
+          "edgeCount": 4,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "B2",
+              "label": "B2",
+              "type": "Balancing"
+            }
+          ]
+        },
+        "straight": {
+          "count": 4,
+          "curves": [],
+          "invalid": []
+        },
+        "svg": {
+          "curves": 0,
+          "handles": 0
+        }
+      }
+    },
+    {
+      "name": "B2: loop badge and caption do not obscure an arrow",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "B3: live and SVG loop retain all semantics using straight segments",
+      "passed": true,
+      "details": {
+        "loop": "B3",
+        "live": {
+          "nodeCount": 4,
+          "edgeCount": 4,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "B3",
+              "label": "B3",
+              "type": "Balancing"
+            }
+          ]
+        },
+        "export": {
+          "nodeCount": 4,
+          "edgeCount": 4,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "B3",
+              "label": "B3",
+              "type": "Balancing"
+            }
+          ]
+        },
+        "straight": {
+          "count": 4,
+          "curves": [],
+          "invalid": []
+        },
+        "svg": {
+          "curves": 0,
+          "handles": 0
+        }
+      }
+    },
+    {
+      "name": "B3: loop badge and caption do not obscure an arrow",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "B4: live and SVG loop retain all semantics using straight segments",
+      "passed": true,
+      "details": {
+        "loop": "B4",
+        "live": {
+          "nodeCount": 5,
+          "edgeCount": 5,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "B4",
+              "label": "B4",
+              "type": "Balancing"
+            }
+          ]
+        },
+        "export": {
+          "nodeCount": 5,
+          "edgeCount": 5,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "B4",
+              "label": "B4",
+              "type": "Balancing"
+            }
+          ]
+        },
+        "straight": {
+          "count": 5,
+          "curves": [],
+          "invalid": []
+        },
+        "svg": {
+          "curves": 0,
+          "handles": 0
+        }
+      }
+    },
+    {
+      "name": "B4: loop badge and caption do not obscure an arrow",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "B5: live and SVG loop retain all semantics using straight segments",
+      "passed": true,
+      "details": {
+        "loop": "B5",
+        "live": {
+          "nodeCount": 3,
+          "edgeCount": 3,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "B5",
+              "label": "B5",
+              "type": "Balancing"
+            }
+          ]
+        },
+        "export": {
+          "nodeCount": 3,
+          "edgeCount": 3,
+          "nodeIdsMatch": true,
+          "edgeIdsMatch": true,
+          "nodeMismatches": [],
+          "edgeMismatches": [],
+          "loopBadges": [
+            {
+              "id": "B5",
+              "label": "B5",
+              "type": "Balancing"
+            }
+          ]
+        },
+        "straight": {
+          "count": 3,
+          "curves": [],
+          "invalid": []
+        },
+        "svg": {
+          "curves": 0,
+          "handles": 0
+        }
+      }
+    },
+    {
+      "name": "B5: loop badge and caption do not obscure an arrow",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Standalone full SVG has tight20-unit side margins and no clipped text",
+      "passed": true,
+      "details": {
+        "left": 20,
+        "right": 20,
+        "clippedText": [],
+        "width": 1996,
+        "height": 1595
+      }
+    },
+    {
+      "name": "Line editing starts disabled and has no saved custom routes in a fresh profile",
+      "passed": true
+    },
+    {
+      "name": "Edit lines toolbar opens and selected link exposes draggable bends",
+      "passed": true
+    },
+    {
+      "name": "Real pointer drag at100% changes selected line without panning the map",
+      "passed": true,
+      "details": {
+        "scale": 1.000000000311194,
+        "handle": {
+          "x": 505.68280029296875,
+          "y": 447.0659713745117,
+          "index": "0"
+        },
+        "changed": true
+      }
+    },
+    {
+      "name": "Dragging one line does not change other line paths",
+      "passed": true
+    },
+    {
+      "name": "Undo restores exact automatic route",
+      "passed": true
+    },
+    {
+      "name": "Redo restores exact manually edited route",
+      "passed": true
+    },
+    {
+      "name": "Real bend dragging also works at175% with correct world coordinates",
+      "passed": true
+    },
+    {
+      "name": "Dragging a hollow midpoint adds a new bend",
+      "passed": true
+    },
+    {
+      "name": "Added bend is undoable",
+      "passed": true
+    },
+    {
+      "name": "Clicked bend receives keyboard focus and arrow keys move it without panning",
+      "passed": true
+    },
+    {
+      "name": "Click then Delete removes a bend and supports Undo",
+      "passed": true
+    },
+    {
+      "name": "Undo deletion restores saved route exactly",
+      "passed": true
+    },
+    {
+      "name": "Manual route keeps original variables,arrow direction,polarity and delay",
+      "passed": true,
+      "details": {
+        "nodeCount": 35,
+        "edgeCount": 77,
+        "nodeIdsMatch": true,
+        "edgeIdsMatch": true,
+        "nodeMismatches": [],
+        "edgeMismatches": [],
+        "loopBadges": []
+      }
+    },
+    {
+      "name": "SVG includes manually adjusted route without handles or curves",
+      "passed": true,
+      "details": {
+        "path": "M 34 160 L 22 160 L -58 188 L -18 1400 L 1020 1400 L 1020 1390.800048828125",
+        "handles": 0,
+        "curves": 0
+      }
+    },
+    {
+      "name": "Save layout downloads a portable JSON with exact edits",
+      "passed": true
+    },
+    {
+      "name": "Reset link restores automatic route",
+      "passed": true
+    },
+    {
+      "name": "Load layout restores the downloaded route",
+      "passed": true
+    },
+    {
+      "name": "Unknown-link layout is rejected without changing existing edits",
+      "passed": true
+    },
+    {
+      "name": "Local browser edits survive a page reload",
+      "passed": true
+    },
+    {
+      "name": "Isolated loop and full-system edits are stored separately",
+      "passed": true
+    },
+    {
+      "name": "Edited two-node loop keeps badge clear of its arrows",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Finishing editing hides all editing handles",
+      "passed": true
+    },
+    {
+      "name": "Evidence details remain available after editing",
+      "passed": true
+    },
+    {
+      "name": "Runtime model matches canonical model after edits",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript runtime exceptions",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Both model source files remain byte-identical",
+      "passed": true
+    }
+  ],
+  "dataIntegrity": {
+    "report": "qa/model_data_integrity.json",
+    "passed": true,
+    "checks": 30
+  },
+  "geometryIntegrity": {
+    "report": "qa/straight_geometry_integrity.json",
+    "passed": true,
+    "routeOccurrences": 115
+  },
+  "currentBrowserReport": "qa/line_editor_validation.json",
+  "currentFullSystemExport": "qa/straight_full_system.svg",
+  "historicalCurvedPresentationReports": [
+    "qa/presentation_validation.json",
+    "qa/svg_rendering_validation.json"
+  ],
+  "sourceHashes": {
+    "index.html": "cd9c003429d109950bedf68e7060172e3ba6812e2f464126e8977acc9fb6b4c9",
+    "app.js": "c1e52fe68519b7058414dcfa7772660521a1996e3dfcf77c28a8bcd2caf2008c",
+    "app.css": "c55bb36f37a58aad3a33a05832e0267dd3d3ae291adfb127365ca229dcdba964",
+    "presentation.css": "572351843e43b4b02aafc6181a669db6c89a08de21b52b73ce548e1d28dd010f",
+    "graph_geometry.js": "1945edc06da62b088848b36b151dbd8b1104a6874235e5e9724abaff86948d1f",
+    "line_editor.js": "19498061d5d4d661c8cab1a24b09af86e7f43e9e27a2e494c3ed110678433995",
+    "line_editor.css": "899fead2c33a19e3f126f70428f216276989ed9206fe20fcfd8a361cc04f58ca",
+    "model.js": "67aff2c0f61f2d6830284ab7820c790ae5d16f1fc39bb431c38f384956571764",
+    "model.json": "1995f1dd8bb50dbc513025ad0a2a9d93c4965e1ee508d97fdc0228e605c68b2b"
+  }
+}
